@@ -1,7 +1,5 @@
-body {
-    color: aliceblue;
-}
+$titulos-h1: 50px;
 
 h1 {
-    font-size: large;
+    font-size: $titulos-h1;
 }
