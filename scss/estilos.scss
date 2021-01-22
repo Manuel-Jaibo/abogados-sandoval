@@ -1,5 +1,43 @@
-$titulos-h1: 50px;
-
-h1 {
-    font-size: $titulos-h1;
+body {
+    box-sizing: border-box;
 }
+
+/*Globales*/
+a {
+    font-size: $tamano-navegacion;
+    color: $color-navegacion;
+    font-family: $tipografia-navegacion;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-hover;
+}
+/*Fin CSS Globales*/
+
+/*inicia CSS Header*/
+.header-seccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+@import 'header';
+    .logo {
+        width: $tamano-header-logo;
+    }
+
+    .header-iconos {
+        width: $tamano-header-iconos;
+    }
