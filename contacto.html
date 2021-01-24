@@ -15,19 +15,39 @@
 
 <body>
     <header>
-        <section class="header-seccion1">
+        <div class="header-seccion1">
             <div>
                 <a href="/index.html"><img class="logo" src="/media/logo.svg" alt="logo"></a>
             </div>
-            <div>
+
+<!--Menu de hamburguesa-->
+<div class="bamboo">
+    <div id="menu-btn">
+        <div class="menu-btn-line"></div>
+        <div class="menu-btn-line"></div>
+        <div class="menu-btn-line"></div>
+    </div>
+
+<!--Menu-->
+    <nav id="menu">
+        <ul>
+            <li><a href="empresas.html">Empresas</a></li>
+            <li><a href="empleados.html">Empleados</a></li>
+            <li><a href="abogados.html">Abogado online</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+            <div class="caja-iconos">
                 <img class="header-iconos" src="/media/logo-facebook.png" alt="icon-facebook">
                 <img class="header-iconos" src="/media/logo-instagram.png" alt="icon-linkedin">
                 <img class="header-iconos" src="/media/logo-facebook.png" alt="icon-facebook">
                 <img class="header-iconos" src="/media/logo-instagram.png" alt="icon-linkedin">
             </div>
-        </section>
+        </div>
 
-        <section class="header-seccion2">
+        <div class="header-seccion2">
             <nav>
                 <ul>
                     <li><a href="empresas.html">Empresas</a></li>
@@ -36,7 +56,7 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
     </header>
 
     <section class="contacto-seccion1">
@@ -71,5 +91,9 @@
             <img class="footer-iconos" src="/media/logo-instagram.png" alt="icon-linkedin">
         </div>
     </footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/menham.js"></script>
 </body>
 </html>
