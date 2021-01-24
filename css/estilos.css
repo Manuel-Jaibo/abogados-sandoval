@@ -80,11 +80,17 @@ ul {
 .main-col1 * {
   display: inline-block; }
 
+.main-col1 {
+  text-align: center; }
+
 .main-col2 img {
   float: left; }
 
 .main-col2 * {
   display: inline-block; }
+
+.main-col2 {
+  text-align: center; }
 
 /*Fin CSS Seccion 2*/
 /*Inicia CSS Artículos recientes*/
@@ -161,6 +167,74 @@ article img {
   text-align: center; }
 
 /*Fin CSS de EMPRESAS*/
+/*Inicia CSS Abogado online*/
+.abog-seccion1 {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px; }
+
+.abog-seccion1-a {
+  width: 50%; }
+
+.abog-seccion1-b {
+  width: 50%; }
+
+.abog-seccion1-b img {
+  width: 100%;
+  height: 480px; }
+
+.articulo-derecha {
+  display: flex;
+  width: 100%; }
+
+.articulo-derecha img {
+  width: fit-content; }
+
+.articulo-derecha-a {
+  margin-right: 140px; }
+
+.articulo-derecha-b {
+  margin-left: 140px; }
+
+.articulo-izquierda {
+  display: flex;
+  width: 100%; }
+
+.articulo-izquierda img {
+  width: fit-content; }
+
+.articulo-izquierda-a {
+  margin-left: 140px; }
+
+.articulo-izquierda-b {
+  margin-right: 140px; }
+
+/*Fin CSS Abogado online*/
+/*Inicia CSS Contacto*/
+.contacto-seccion1 {
+  display: flex;
+  margin: 70px 120px; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: #54BBAD;
+  margin: 70px 400px;
+  text-align: center; }
+
+.inputs {
+  display: flex;
+  flex-direction: column; }
+
+.inputs * {
+  margin: 10px 30px;
+  height: 25px; }
+
+.enviar {
+  margin: 10px 160px 20px 160px; }
+
+/*Inicia CSS Contacto*/
 /*Inicia CSS Footer*/
 footer {
   display: flex;
