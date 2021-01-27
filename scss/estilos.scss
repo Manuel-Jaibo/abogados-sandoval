@@ -583,6 +583,23 @@ form {
         width: 100%;
     }
 
+    iframe {
+        width: 100%;
+        margin-top: 45px;
+    }
 
+    form {
+        width: 100%;
+        margin: 45px 0 0 0;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .enviar {
+        margin: 10px 110px 19px 110px;
+    }
     
 }
