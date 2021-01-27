@@ -93,11 +93,24 @@ ul {
   /*List container*/
   #menu{ 
     position: absolute; 
-    top: 7em; left: 1em; 
-    border: .5em solid  #54BBAD; 
-    width: 10em;
-    padding: 1em;
+    top: 10em; left: 1em; 
+    width: 80%;
+    border: .5em solid  black; 
+    font-size: 5px;
+    background-color: #54BBAD;
   }
+
+  #menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  #menu ul li a {
+    font-size: $tamano-navegacion-cel;
+    font-family: $tipografia-parrafos;
+  }
+
     /*List*/
     #menu ul{ padding: 0; margin: 0; }
       /*List items*/
@@ -107,8 +120,6 @@ ul {
         padding: .5em;
         color: #00FFCA;
         transition: all .3s ease-out;
-        display: flex;
-        flex-direction: column;
       }
       /*Subscribe link*/
       #menu ul li:last-child{
