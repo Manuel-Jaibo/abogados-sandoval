@@ -247,7 +247,6 @@ article img {
     margin-top: -50px;
     padding: 15px;
     text-align: justify;
-    font-size: 20px;
 }
 
 .fila1-b {
@@ -384,6 +383,18 @@ form {
 
 /*Inicia Media Query Celular pequeño con menu de hamburguesa*/
 @media screen and (min-width:1px) and (max-width:425px){
+    p {
+        font-size: $tamano-parrafos-cel;
+    }
+
+    h1 {
+        font-size: $tamano-h1-cel;
+    }
+
+    h2 {
+        font-size: $tamano-h2-cel;
+    }
+    
     .bamboo {
         display: flex;
     }
@@ -404,6 +415,8 @@ form {
         width: 100%;
         height: 200px;
     }
+
+    /*Inicia CSS de main*/
 
     .main-seccion1 {
         flex-wrap: wrap;
@@ -439,6 +452,9 @@ form {
         width: 100%;
     }
 
+    /*Fin CSS main*/
+
+    /*Inicia CSS Artículos recientes*/
     .articulos-recientes {
         flex-direction: column;
     }
@@ -455,6 +471,118 @@ form {
 
     /*Fin CSS Artículos recientes*/
 
-    /*Inicia CSS de EMPRESAS*/
+    /*Inicia CSS de empresas*/
+    .seccionplo p {
+        margin: 0;
+    }
+
+    .zindex p{
+        background-color: #54BBAD;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        margin-top: -30px;
+        padding: 10px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .fila1 {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fila1 img {
+        flex-direction: column;
+    }
+
+    .fila1-a {
+        width: 100%;
+    }
+
+    .fila1-b {
+        width: 100%;
+    }
+    
+    .fila2 {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fila2-a {
+        width: 100%;
+    }
+
+    .fila2-b {
+        width: 100%;
+    }
+
+    /*Fin CSS de empresas*/
+
+    /*Inicia CSS Abogado online*/
+    .abog-seccion1 {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    .abog-seccion1-a {
+        width: 100%;
+    }
+
+    .abog-seccion1-b {
+        width: 100%;
+    }
+
+    .abog-seccion1-b img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .articulo-derecha {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .articulo-derecha img {
+        width: 100%;
+    }
+
+    .articulo-derecha-a {
+        margin-right: 0;
+    }
+    
+    .articulo-derecha-b {
+        margin-left: 0;
+    }
+
+    .articulo-izquierda {
+        flex-direction: column-reverse;
+        margin-top: 70px;
+    }
+
+    .articulo-izquierda img {
+        width: 100%;
+    }
+
+    .articulo-izquierda-a {
+        margin-left: 0;
+    }
+    
+    .articulo-izquierda-b {
+        margin-right: 0;
+    }
+    /*Fin CSS Abogado online*/
+
+    /*Inicia Contacto*/
+    .contacto-seccion1 {
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
     
 }
