@@ -1,3 +1,4 @@
+
 body {
     box-sizing: border-box;
 }
@@ -396,7 +397,7 @@ form {
 @media screen and (min-width:1px) and (max-width:425px){
     p {
         font-size: $tamano-parrafos-cel;
-    }
+    }   
 
     h1 {
         font-size: $tamano-h1-cel;
@@ -617,4 +618,41 @@ form {
 /*Inicia */
 /*Inicia Media Query Celular Horizontal (incluye tablets*/
 @media screen and (min-width:426px) and (max-width:768px){
+    /*Inicia CSS de main*/
+
+    .main-seccion1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .img-mv img {
+        width: 100%;
+    }
+
+    .main-seccion2 {
+        flex-wrap: wrap;
+    }
+
+    .main-col1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-col1 img {
+        width: 100%;
+    }
+
+    .main-col2 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-col2 img {
+        width: 100%;
+    }
+
+    /*Fin CSS main*/
 }
