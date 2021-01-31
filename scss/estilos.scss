@@ -429,13 +429,12 @@ form {
     }
 
     /*Inicia CSS de main*/
-
     .main-seccion1 {
         flex-wrap: wrap;
         width: 100%;
         margin: 0;
     }
-
+    
     .img-mv img {
         width: 100%;
     }
@@ -618,41 +617,64 @@ form {
 /*Inicia */
 /*Inicia Media Query Celular Horizontal (incluye tablets*/
 @media screen and (min-width:426px) and (max-width:768px){
-    /*Inicia CSS de main*/
-
-    .main-seccion1 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
+    html {
+        background-color: #ff0000;
     }
 
-    .img-mv img {
+    .bamboo {
+        display: flex;
+    }
+
+    .logo {
         width: 100%;
+    }
+
+    .caja-iconos{
+        display: none;
+    }
+
+    .header-seccion2 {
+        display: none;
+    }
+
+    .baner {
+        width: 100%;
+        height: 250px;
+    }
+
+    /*Inicia CSS main*/
+    
+    .main-seccion1 {
+        flex-direction: column;
     }
 
     .main-seccion2 {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
-    .main-col1 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
+    .main-col2{
+        margin-top: 100px;
     }
-
-    .main-col1 img {
-        width: 100%;
-    }
-
-    .main-col2 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
-    }
-
-    .main-col2 img {
-        width: 100%;
-    }
-
     /*Fin CSS main*/
+
+    /*Inicia CSS de empresas*/
+    .fila1 {
+        width: 100%;
+        padding: 0;
+    }    
+
+    .fila1 p{
+        font-size: $tamano-parrafos-cel;
+    }
+
+    .fila2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fila2 p{
+        font-size: $tamano-parrafos-cel;
+    }
+
+
 }
