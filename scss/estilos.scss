@@ -617,10 +617,6 @@ form {
 /*Inicia */
 /*Inicia Media Query Celular Horizontal (incluye tablets*/
 @media screen and (min-width:426px) and (max-width:768px){
-    html {
-        background-color: #ff0000;
-    }
-
     .bamboo {
         display: flex;
     }
@@ -641,11 +637,13 @@ form {
         width: 100%;
         height: 250px;
     }
+    /*Fin CSS header*/
 
     /*Inicia CSS main*/
     
     .main-seccion1 {
         flex-direction: column;
+        margin: 0;
     }
 
     .main-seccion2 {
@@ -655,9 +653,27 @@ form {
     .main-col2{
         margin-top: 100px;
     }
-    /*Fin CSS main*/
+    /*Fin CSS main*/    
 
     /*Inicia CSS de empresas*/
+    .seccionplo p {
+        margin: 0;
+        padding: 25px 35px;
+    }
+    
+    .articulos-recientes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+    
     .fila1 {
         width: 100%;
         padding: 0;
@@ -676,5 +692,50 @@ form {
         font-size: $tamano-parrafos-cel;
     }
 
+    /*Fin CSS Empresas*/
 
+    /*Inicio CSS Abogado online*/
+    .abog-seccion1 {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin:0;
+    }
+
+    .abog-seccion1-a {
+        width: 100%;
+    }
+
+    .abog-seccion1-b {
+        width: 100%;
+    }
+
+    .articulo-derecha {
+        flex-direction: column;
+    }
+
+    .articulo-izquierda {
+        flex-direction: column-reverse;
+    }
+
+    .zzz {
+        margin-top: 70px;
+        text-align: center;
+    }
+    /*Fin CSS Abogado online*/
+
+    /*Inicia CSS Contacto*/
+
+    .contacto-seccion1{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    form{
+        margin: 0;
+        margin-top: 45px;
+    }
 }
