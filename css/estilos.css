@@ -365,6 +365,8 @@ footer p {
     width: 100%; }
   .main-seccion2 {
     flex-wrap: wrap; }
+  .tit {
+    margin-top: 70px; }
   .main-col1 {
     flex-wrap: wrap;
     width: 100%;
@@ -374,7 +376,7 @@ footer p {
   .main-col2 {
     flex-wrap: wrap;
     width: 100%;
-    margin: 0; }
+    margin: 90px 0 0 0; }
   .main-col2 img {
     width: 100%; }
   /*Fin CSS main*/
@@ -385,8 +387,13 @@ footer p {
     width: 100%; }
   article {
     width: 100%;
-    margin-top: 20px;
-    padding: 1px; }
+    margin-top: 80px;
+    padding: 1px;
+    outline-style: groove;
+    outline-width: 1px;
+    outline-color: black; }
+  article h3 {
+    text-align: center; }
   /*Fin CSS Artículos recientes*/
   /*Inicia CSS de empresas*/
   .seccionplo p {

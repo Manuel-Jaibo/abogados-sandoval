@@ -1,7 +1,7 @@
 {
   "name": "oye",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estos son los estilos globales del sitio web",
   "main": "index.js",
   "scripts": {
     "scss": "node-sass --watch scss -o css"
@@ -9,6 +9,16 @@
   "author": "manuel",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "node-sass": "^5.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel-Jaibo/alejandro-sandoval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Manuel-Jaibo/alejandro-sandoval/issues"
+  },
+  "homepage": "https://github.com/Manuel-Jaibo/alejandro-sandoval#readme"
 }

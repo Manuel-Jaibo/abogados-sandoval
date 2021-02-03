@@ -443,6 +443,10 @@ form {
         flex-wrap: wrap;
     }
 
+    .tit {
+        margin-top: 70px;
+    }
+
     .main-col1 {
         flex-wrap: wrap;
         width: 100%;
@@ -456,7 +460,7 @@ form {
     .main-col2 {
         flex-wrap: wrap;
         width: 100%;
-        margin: 0;
+        margin: 90px 0 0 0;
     }
 
     .main-col2 img {
@@ -476,8 +480,15 @@ form {
 
     article {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 80px;
         padding: 1px;
+        outline-style: groove;
+        outline-width: 1px;
+        outline-color: black;
+    }
+
+    article h3{
+        text-align: center;
     }
 
     /*Fin CSS Artículos recientes*/
