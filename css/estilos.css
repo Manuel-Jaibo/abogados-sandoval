@@ -9,7 +9,7 @@ body {
 a {
   font-size: 25px;
   color: black;
-  font-family: "Alegreya SC", serif;
+  font-family: "Alegreya Sans", sans-serif;
   text-decoration: none; }
 
 a:hover {
@@ -213,46 +213,23 @@ article img {
 
 /*Fin CSS Artículos recientes*/
 /*Inicia CSS de EMPRESAS*/
-.seccionplo p {
-  margin: 50px 150px 0 150px;
-  text-align: justify; }
+.secem {
+  display: flex; }
 
-.fila1 {
+.lista h2 {
+  font-size: 22px; }
+
+.secem img {
+  width: 600px; }
+
+.lista {
   display: flex;
-  justify-content: center;
-  padding-left: 150px;
-  padding-right: 150px; }
+  align-self: start; }
 
-.fila1-a {
-  width: 50%; }
-
-.zindex p {
-  background-color: #54BBAD;
-  margin-left: 30px;
-  margin-right: 30px;
-  position: relative;
-  margin-top: -50px;
-  padding: 15px;
-  text-align: justify; }
-
-.fila1-b {
-  width: 50%; }
-
-.fila2 {
-  display: flex;
-  justify-content: center;
-  padding-left: 150px;
-  padding-right: 150px; }
-
-.fila2-a {
-  width: 50%; }
-
-.fila2-b {
-  width: 50%; }
-
-.contactanos {
-  margin-top: 70px;
-  text-align: center; }
+.lista img {
+  float: left;
+  width: 30px;
+  padding-right: 20px; }
 
 /*Fin CSS de EMPRESAS*/
 /*Inicia CSS Abogado online*/
@@ -345,11 +322,6 @@ a:hover {
 footer img {
   width: 200px; }
 
-footer p {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 17px;
-  color: #ffffff; }
-
 /*Fin CSS Footer*/
 /*Inicia Media Query Celular pequeño con menu de hamburguesa*/
 @media screen and (min-width: 1px) and (max-width: 425px) {
@@ -412,33 +384,6 @@ footer p {
   /*Inicia CSS de empresas*/
   .seccionplo p {
     margin: 0; }
-  .zindex p {
-    background-color: #54BBAD;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-    margin-top: -30px;
-    padding: 10px;
-    text-align: justify;
-    font-size: 16px; }
-  .fila1 {
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0; }
-  .fila1 img {
-    flex-direction: column; }
-  .fila1-a {
-    width: 100%; }
-  .fila1-b {
-    width: 100%; }
-  .fila2 {
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0; }
-  .fila2-a {
-    width: 100%; }
-  .fila2-b {
-    width: 100%; }
   /*Fin CSS de empresas*/
   /*Inicia CSS Abogado online*/
   .abog-seccion1 {
@@ -513,26 +458,6 @@ footer p {
     margin-top: 100px; }
   /*Fin CSS main*/
   /*Inicia CSS de empresas*/
-  .seccionplo p {
-    margin: 0;
-    padding: 25px 35px; }
-  .articulos-recientes {
-    flex-direction: column;
-    width: 100%; }
-  aside {
-    width: 100%; }
-  article {
-    width: 100%; }
-  .fila1 {
-    width: 100%;
-    padding: 0; }
-  .fila1 p {
-    font-size: 19px; }
-  .fila2 {
-    width: 100%;
-    padding: 0; }
-  .fila2 p {
-    font-size: 19px; }
   /*Fin CSS Empresas*/
   /*Inicio CSS Abogado online*/
   .abog-seccion1 {

@@ -12,7 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/bf4418249f.js" crossorigin="anonymous"></script>
+    <!--Enlace a fontawesome--><script src="https://kit.fontawesome.com/bf4418249f.js" crossorigin="anonymous"></script>
+    <!--Enlace a efectos css--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" type="image/svg" href="/media/favicon.svg"/>    
 </head>
 
 <body>
@@ -42,9 +44,17 @@
 </div>
 
             <div class="caja-iconos"> <!--clase anterior > caja-iconos-->
-                <i class="fab fa-facebook-f fa-2x"></i> <!--clase de íconos anteriores> header-iconos-->
-                <i class="fab fa-linkedin-in fa-2x"></i>
-                <i class="fas fa-phone-volume fa-2x"></i>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i> 
+                </a>
+    
+                <a href="http://" target="_blank" rel="noopener noreferrer">   
+                    <i class="fab fa-linkedin-in"> </i>
+                </a> 
+    
+                <a href="tel:5529444399">
+                    <i class="fas fa-phone-volume"></i>
+                </a>
             </div>
         </div>
 
@@ -71,18 +81,25 @@
     </section>
 
 
-    <form>
-        <div>
-            <h2>Contáctanos para más información</h2>
+    <footer>
+        <a href="tel:5529444399">
+            <p>55-29-44-43-99</p>
+        </a>
+        <p>alejandro@despachossandoval.com</p>
+        <div class="footer-iconos"> <!--clase anterior > caja-iconos-->
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i> 
+            </a>
+
+            <a href="http://" target="_blank" rel="noopener noreferrer">   
+                <i class="fab fa-linkedin-in"> </i>
+            </a> 
+
+            <a href="tel:5529444399">
+                <i class="fas fa-phone-volume"></i>
+            </a>
         </div>
-        <div class="inputs">
-            <input type="text" name="nombre" placeholder="Nombre y apellido">
-            <input type="tel" name="teléfono" placeholder="Teléfono">
-            <input type="email" name="correo" placeholder="Correo electrónico">
-            <input type="tel" name="mensaje" placeholder="Mensaje">
-            <input class="enviar" type="submit" value="Enviar">
-        </div>
-    </form>
+    </footer>
 
     <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9327797.js"></script>

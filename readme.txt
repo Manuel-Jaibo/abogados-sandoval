@@ -2,9 +2,9 @@ Estos son los estilos globales del sitio web
 
 Colores:
     #02544C - h1, h2, h3, h4, etc.
-    #008D6C
+    #008D6C - color de texto de call to action
     #009F8B
-    #54BBAD - background de botones
+    #54BBAD - background
 
 Tipografía:
     Alegreya serif: títulos y subtítulos variando su peso para dar jerarquía.
