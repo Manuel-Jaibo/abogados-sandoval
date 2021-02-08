@@ -239,32 +239,76 @@ article img {
 
 
 /*Inicia CSS de EMPRESAS*/
+.seccionplo p{
+    padding: 50px 200px;
+    text-align: justify;
+}
+
 .secem{
     display: flex;
 }
 
-.lista h2{
-    font-size: $tamano-servicios;
-}
-
 .secem img{
-    width: 600px;
+    width:600px;
+    height: 520px;
 }
 
-.lista{
+.lista{ list-style-image: url('/media/icono-lista.png');
     display: flex;
-    align-self: start;
+    flex-direction: column;
+    margin-top: -35px;
 }
 
-.lista img{
-    float: left;
-    width: 30px;
-    padding-right: 20px;
+.lista li{
+    margin-top: 10px;
+}
+
+.boton-lista{
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+    border-style: none;
+    background-color: $color-fondo-botones;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.boton-lista:hover{
+    background-color: $color-hover;
+}
+
+.boton-lista:hover{
+    color: white;
 }
 
 /*Fin CSS de EMPRESAS*/
 
-/*Inicia CSS Abogado online*/
+//Inicia CSS de TRABAJADORES
+.h1-trab{
+    text-align: center;
+}
+
+.tra-servicios{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.tra-col-1{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tra-col-2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+//Fin CSS de TRABAJADORES
+
+//Inicia CSS Abogado online
 .abog-seccion1 {
     display: flex;
     margin-left: 150px;
@@ -284,40 +328,36 @@ article img {
     height: 480px;
 }
 
-.articulo-derecha {
+.titulo-abog{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.linea-1{
     display: flex;
+    justify-content: center;
+}
+
+.linea-1 div{
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+}
+
+.linea-1 div p{
+    text-align: justify;
+    padding: 0 25px;
+}
+
+.linea-1 div:hover{
+    background-color: #cdcdcd;
+}
+
+.linea-1 img{
     width: 100%;
 }
 
-.articulo-derecha img {
-    width: fit-content;
-}
-
-.articulo-derecha-a {
-    margin-right: 140px;
-}
-
-.articulo-derecha-b {
-    margin-left: 140px;
-}
-
-.articulo-izquierda {
-    display: flex;
-    width: 100%;
-}
-
-.articulo-izquierda img {
-    width: fit-content;
-}
-
-.articulo-izquierda-a {
-    margin-left: 140px;
-}
-
-.articulo-izquierda-b {
-    margin-right: 140px;
-}
-/*Fin CSS Abogado online*/
+//Fin CSS Abogado online
 
 
 /*Inicia CSS Contacto*/
