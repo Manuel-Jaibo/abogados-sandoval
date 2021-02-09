@@ -5,35 +5,16 @@ body {
 
 /*Globales*/
 @import "globales";
-
-a {
-    font-size: $tamano-navegacion;
-    color: $color-navegacion;
-    font-family: $tipografia-navegacion;
-    text-decoration: none;
-}
-
 a:hover {
     color: $color-hover;
 }
 
-p {
-    font-size: $tamano-parrafos;
-    font-family: $tipografia-parrafos;
-}
-
-h1 {
-    font-size: $tamano-h1;
-    font-family: $tipografia-titulos;
-}
-
-h2 {
-    font-size: $tamano-h2;
-    font-family: $tipografia-titulos;
-}
-Fin CSS Globales*/
-
 /*inicia CSS Header*/
+@import "header";
+.logo {
+    width: $tamano-header-logo;
+}
+
 .header-seccion1 {
     display: flex;
     flex-direction: row;
@@ -44,27 +25,38 @@ li {
     list-style-type: none;
 }
 
-ul {
+.nav-pc {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 40px;
 }
 
-@import "header";
-    .logo {
-        width: $tamano-header-logo;
-    }
+.nav-pc li a{
+    color: $color-navegacion;
+    font-family: $tipografia-navegacion;
+    font-size: $tamano-navegacion;
+    text-decoration: none;
+}
 
-    .caja-iconos {
-        margin-top: 45px;
-        word-spacing: 10px;
-    }
+.nav-pc li a:hover{
+    color: $color-hover;
+}
 
-    .caja-iconos i:hover{
-        color: #02544C;;
-    }
+.caja-iconos {
+    margin-top: 40px;
+    word-spacing: 10px;
+    font-size: $tamano-header-iconos;
+}
 
+.caja-iconos a{
+    text-decoration: none;
+    color: $color-navegacion;
+}
+
+.caja-iconos i:hover{
+    color: $color-hover;
+}
 
 /*Inicia Menu de hamburguesa*/
 /*Inicia Menu de hamburguesa*/
@@ -213,12 +205,12 @@ aside {
     background-color: #009F8B;
 }
 
-aside h2 {
+.aside-art-home h2 {
     color: #ffffff;
     text-align: center;
 }
 
-aside p {
+.aside-art-home p {
     font-size: 20px;
     text-align: justify;
     padding-left: 20px;
@@ -411,7 +403,7 @@ form {
         color:#ffffff
     }
 
-    a:hover{
+    footer a:hover{
         color: #000000;
     }
 
