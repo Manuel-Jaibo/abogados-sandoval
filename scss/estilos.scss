@@ -31,7 +31,7 @@ h2 {
     font-size: $tamano-h2;
     font-family: $tipografia-titulos;
 }
-/*Fin CSS Globales*/
+Fin CSS Globales*/
 
 /*inicia CSS Header*/
 .header-seccion1 {
@@ -350,7 +350,7 @@ article img {
 }
 
 .linea-1 div:hover{
-    background-color: #cdcdcd;
+    background-color: $color-fondo-botones;
 }
 
 .linea-1 img{

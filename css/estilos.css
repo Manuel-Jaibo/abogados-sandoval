@@ -2,31 +2,10 @@
 body {
   box-sizing: border-box; }
 
-/*Globales*/
 /*Colores globales*/
 /*Tipografia global*/
 /*Tamaño de tipografía global*/
-a {
-  font-size: 25px;
-  color: black;
-  font-family: "Alegreya Sans", sans-serif;
-  text-decoration: none; }
-
-a:hover {
-  color: #02544C; }
-
-p {
-  font-size: 22px;
-  font-family: "Alegreya Sans", sans-serif; }
-
-h1 {
-  font-size: 35px;
-  font-family: "Alegreya", serif; }
-
-h2 {
-  font-size: 25px;
-  font-family: "Alegreya", serif; }
-
+/*Globales*/
 /*Fin CSS Globales*/
 /*inicia CSS Header*/
 .header-seccion1 {
@@ -52,6 +31,12 @@ ul {
 
 .caja-iconos i:hover {
   color: #02544C; }
+
+ul li a {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  color: black; }
 
 /*Inicia Menu de hamburguesa*/
 /*Inicia Menu de hamburguesa*/
@@ -192,17 +177,6 @@ aside {
   width: 25%;
   background-color: #009F8B; }
 
-aside h2 {
-  color: #ffffff;
-  text-align: center; }
-
-aside p {
-  font-size: 20px;
-  text-align: justify;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff; }
-
 article {
   margin-top: 90px;
   width: 25%;
@@ -300,7 +274,7 @@ article img {
   padding: 0 25px; }
 
 .linea-1 div:hover {
-  background-color: #cdcdcd; }
+  background-color: #54BBAD; }
 
 .linea-1 img {
   width: 100%; }
