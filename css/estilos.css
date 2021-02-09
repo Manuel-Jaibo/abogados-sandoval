@@ -1,13 +1,5 @@
-@charset "UTF-8";
 body {
   box-sizing: border-box; }
-
-/*Globales*/
-/*Colores globales*/
-/*Tipografia global*/
-/*Tamaño de tipografía global*/
-a:hover {
-  color: #54BBAD; }
 
 /*inicia CSS Header*/
 .logo {
@@ -30,7 +22,7 @@ li {
 .nav-pc li a {
   color: black;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   text-decoration: none; }
 
 .nav-pc li a:hover {
@@ -99,10 +91,6 @@ li {
   flex-direction: column;
   text-align: center; }
 
-#menu ul li a {
-  font-size: 19px;
-  font-family: "Alegreya Sans", sans-serif; }
-
 /*List*/
 #menu ul {
   padding: 0;
@@ -133,9 +121,41 @@ li {
   color: #34495e; }
 
 /*Fin Menu de hamburguesa*/
-/*Fin Menu de hamburguesa*/
 /*Fin CSS Header*/
-/*Inicia CSS Main*/
+/*Colores globales*/
+/*
+$tamano-parrafos-cel: 19px;
+$tamano-h1-cel: 29px;
+$tamano-h2-cel: 26px;
+$tamano-h3-cel: 20px;
+$tamano-navegacion-cel: 19px;
+
+$tamano-servicios: ;
+
+*/
+h1 {
+  font-family: "Alegreya", serif;
+  font-size: 32px;
+  color: #02544C; }
+
+h2 {
+  font-family: "Alegreya", serif;
+  font-size: 30px;
+  color: #02544C; }
+
+h3 {
+  font-family: "Alegreya", serif;
+  font-size: 20px;
+  color: #02544C; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 23px;
+  color: #000000; }
+
 .baner {
   display: block;
   margin: auto;
@@ -146,38 +166,98 @@ li {
   display: flex;
   margin: 70px 150px; }
 
-/*Fin CSS Main*/
+.main-seccion1 p {
+  text-align: justify; }
+
+.main-seccion1 h1 {
+  text-align: center; }
+
+.img-mv {
+  padding-left: 70px; }
+
 /*Inicia CSS Seccion 2*/
 .tit {
-  text-align: center; }
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px; }
 
 .main-seccion2 {
   display: flex; }
 
 .main-seccion2 p {
   text-align: justify;
-  padding: 15px 45px 0px 45px; }
+  padding: 0 50px; }
 
 .main-col1 img {
+  display: block;
   float: right; }
+
+.main-col1 h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 0; }
 
 .main-col1 * {
   display: inline-block; }
 
 .main-col1 {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 50px; }
+
+.main-col1:hover {
+  background-color: #FCF8F8; }
+
+.main-col1 a {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 21px;
+  color: #000000;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #54BBAD;
+  padding: 8px;
+  background-color: #54BBAD;
+  color: #ffffff; }
+
+.main-col1 a:hover {
+  background-color: white;
+  color: black; }
 
 .main-col2 img {
+  display: block;
   float: left; }
+
+.main-col2 h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 0; }
 
 .main-col2 * {
   display: inline-block; }
 
 .main-col2 {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 50px; }
 
-/*Fin CSS Seccion 2*/
-/*Inicia CSS Artículos recientes*/
+.main-col2:hover {
+  background-color: #FCF8F8; }
+
+.main-col2 a {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 21px;
+  color: #000000;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #54BBAD;
+  padding: 8px;
+  background-color: #54BBAD;
+  color: #ffffff; }
+
+.main-col2 a:hover {
+  background-color: white;
+  color: black; }
+
 .articulos-recientes {
   margin-top: 120px;
   display: flex;
@@ -198,22 +278,42 @@ aside {
   padding-right: 20px;
   color: #ffffff; }
 
-article {
+.articulo-home {
   margin-top: 90px;
   width: 25%;
-  padding: 5px; }
+  padding: 5px;
+  text-align: center; }
 
-article img {
+.articulo-home:hover {
+  background-color: #54BBAD; }
+
+.articulo-home a {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.articulo-home a:hover {
+  color: #02544C; }
+
+.articulo-home img {
   width: 100%; }
 
-/*Fin CSS Artículos recientes*/
 /*Inicia CSS de EMPRESAS*/
 .seccionplo p {
   padding: 50px 200px;
   text-align: justify; }
 
+.seccion-empresas:hover {
+  background: #FCF8F8; }
+
+.empresa-h1 {
+  text-align: center; }
+
 .secem {
-  display: flex; }
+  display: flex;
+  margin-top: 45px; }
 
 .secem img {
   width: 600px;
@@ -223,33 +323,44 @@ article img {
   list-style-image: url("/media/icono-lista.png");
   display: flex;
   flex-direction: column;
-  margin-top: -35px; }
+  margin-top: -10px;
+  padding-right: 20px; }
 
 .lista li {
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: justify; }
 
-.boton-lista {
-  margin-top: 30px;
+.lista a {
   text-align: center;
-  padding: 5px;
-  border-style: none;
+  margin-top: 20px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 21px;
+  color: #000000;
+  outline-style: solid;
+  outline-width: 1px;
+  padding: 8px;
+  width: max-content;
   background-color: #54BBAD;
-  margin-left: 220px;
-  margin-right: 220px; }
+  color: #ffffff; }
 
-.boton-lista:hover {
-  background-color: #54BBAD; }
-
-.boton-lista:hover {
-  color: white; }
+.lista a:hover {
+  background-color: #ffffff;
+  color: #000000; }
 
 /*Fin CSS de EMPRESAS*/
-.h1-trab {
+.seccion-trabajadores {
   text-align: center; }
 
 .tra-servicios {
-  margin-left: 150px;
-  margin-right: 150px; }
+  margin-left: 120px;
+  margin-right: 120px; }
+
+.tra-col-1 h2 {
+  font-size: 25px;
+  background-color: white;
+  position: relative;
+  margin-left: -50px; }
 
 .tra-col-1 {
   margin-top: 40px;
@@ -262,24 +373,32 @@ article img {
   align-items: center;
   flex-direction: row-reverse; }
 
+.tra-col-2 h2 {
+  font-size: 25px;
+  background-color: white;
+  position: relative;
+  margin-right: -50px; }
+
 .abog-seccion1 {
   display: flex;
   margin-left: 150px;
   margin-right: 150px; }
 
 .abog-seccion1-a {
-  width: 50%; }
+  width: 50%;
+  text-align: justify; }
 
 .abog-seccion1-b {
   width: 50%; }
 
 .abog-seccion1-b img {
   width: 100%;
-  height: 480px; }
+  height: 480px;
+  margin-left: 30px; }
 
 .titulo-abog {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 70px; }
 
 .linea-1 {
   display: flex;
@@ -303,26 +422,42 @@ article img {
 /*Inicia CSS Contacto*/
 .contacto-seccion1 {
   display: flex;
-  margin: 70px 120px; }
+  margin: 70px 120px;
+  text-align: justify; }
+
+iframe {
+  margin-left: 30px; }
 
 form {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
-  background-color: #54BBAD;
-  margin: 70px 400px;
-  text-align: center; }
-
-.inputs {
-  display: flex;
   flex-direction: column; }
 
-.inputs * {
-  margin: 10px 30px;
-  height: 25px; }
+.forma {
+  padding: 20px 50px;
+  background-color: #54BBAD;
+  margin: 70px 400px; }
 
-.enviar {
-  margin: 10px 160px 20px 160px; }
+.forma h2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px; }
+
+form input {
+  margin-top: 15px;
+  height: 23px; }
+
+.bot-enviar {
+  align-items: center;
+  width: 150px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 140px;
+  background-color: white; }
+
+.bot-enviar:hover {
+  background-color: #02544C;
+  color: white; }
 
 /*Inicia CSS Contacto*/
 /*Inicia CSS Footer*/
@@ -348,165 +483,3 @@ footer img {
   width: 200px; }
 
 /*Fin CSS Footer*/
-/*Inicia Media Query Celular pequeño con menu de hamburguesa*/
-@media screen and (min-width: 1px) and (max-width: 425px) {
-  p {
-    font-size: 19px; }
-  h1 {
-    font-size: 29px; }
-  h2 {
-    font-size: 26px; }
-  .bamboo {
-    display: flex; }
-  .logo {
-    width: 100%; }
-  .header-seccion2 {
-    display: none; }
-  .caja-iconos {
-    display: none; }
-  .baner {
-    width: 100%;
-    height: 200px; }
-  /*Inicia CSS de main*/
-  .main-seccion1 {
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0; }
-  .img-mv img {
-    width: 100%; }
-  .main-seccion2 {
-    flex-wrap: wrap; }
-  .tit {
-    margin-top: 70px; }
-  .main-col1 {
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0; }
-  .main-col1 img {
-    width: 100%; }
-  .main-col2 {
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 90px 0 0 0; }
-  .main-col2 img {
-    width: 100%; }
-  /*Fin CSS main*/
-  /*Inicia CSS Artículos recientes*/
-  .articulos-recientes {
-    flex-direction: column; }
-  aside {
-    width: 100%; }
-  article {
-    width: 100%;
-    margin-top: 80px;
-    padding: 1px;
-    outline-style: groove;
-    outline-width: 1px;
-    outline-color: black; }
-  article h3 {
-    text-align: center; }
-  /*Fin CSS Artículos recientes*/
-  /*Inicia CSS de empresas*/
-  .seccionplo p {
-    margin: 0; }
-  /*Fin CSS de empresas*/
-  /*Inicia CSS Abogado online*/
-  .abog-seccion1 {
-    margin-left: 0;
-    margin-right: 0;
-    flex-direction: column; }
-  .abog-seccion1-a {
-    width: 100%; }
-  .abog-seccion1-b {
-    width: 100%; }
-  .abog-seccion1-b img {
-    width: 100%;
-    height: 400px; }
-  .articulo-derecha {
-    flex-direction: column;
-    margin-top: 70px; }
-  .articulo-derecha img {
-    width: 100%; }
-  .articulo-derecha-a {
-    margin-right: 0; }
-  .articulo-derecha-b {
-    margin-left: 0; }
-  .articulo-izquierda {
-    flex-direction: column-reverse;
-    margin-top: 70px; }
-  .articulo-izquierda img {
-    width: 100%; }
-  .articulo-izquierda-a {
-    margin-left: 0; }
-  .articulo-izquierda-b {
-    margin-right: 0; }
-  /*Fin CSS Abogado online*/
-  /*Inicia Contacto*/
-  .contacto-seccion1 {
-    margin: 0;
-    flex-direction: column;
-    width: 100%; }
-  iframe {
-    width: 100%;
-    margin-top: 45px; }
-  form {
-    width: 100%;
-    margin: 45px 0 0 0; }
-  footer {
-    flex-direction: column;
-    text-align: center; }
-  .enviar {
-    margin: 10px 110px 19px 110px; } }
-
-/*Inicia */
-/*Inicia Media Query Celular Horizontal (incluye tablets*/
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .bamboo {
-    display: flex; }
-  .logo {
-    width: 100%; }
-  .caja-iconos {
-    display: none; }
-  .header-seccion2 {
-    display: none; }
-  .baner {
-    width: 100%;
-    height: 250px; }
-  /*Fin CSS header*/
-  /*Inicia CSS main*/
-  .main-seccion1 {
-    flex-direction: column;
-    margin: 0; }
-  .main-seccion2 {
-    flex-direction: column; }
-  .main-col2 {
-    margin-top: 100px; }
-  /*Fin CSS main*/
-  /*Inicia CSS de empresas*/
-  /*Fin CSS Empresas*/
-  /*Inicio CSS Abogado online*/
-  .abog-seccion1 {
-    flex-direction: column-reverse;
-    width: 100%;
-    margin: 0; }
-  .abog-seccion1-a {
-    width: 100%; }
-  .abog-seccion1-b {
-    width: 100%; }
-  .articulo-derecha {
-    flex-direction: column; }
-  .articulo-izquierda {
-    flex-direction: column-reverse; }
-  .zzz {
-    margin-top: 70px;
-    text-align: center; }
-  /*Fin CSS Abogado online*/
-  /*Inicia CSS Contacto*/
-  .contacto-seccion1 {
-    flex-direction: column;
-    margin: 0; }
-  iframe {
-    width: 100%; }
-  form {
-    margin: 0;
-    margin-top: 45px; } }

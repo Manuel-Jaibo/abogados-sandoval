@@ -3,17 +3,13 @@ body {
     box-sizing: border-box;
 }
 
-/*Globales*/
-@import "globales";
-a:hover {
-    color: $color-hover;
-}
-
 /*inicia CSS Header*/
 @import "header";
 .logo {
     width: $tamano-header-logo;
 }
+
+
 
 .header-seccion1 {
     display: flex;
@@ -104,8 +100,8 @@ li {
   }
 
   #menu ul li a {
-    font-size: $tamano-navegacion-cel;
-    font-family: $tipografia-parrafos;
+   // font-size: $tamano-navegacion-cel;//
+    //font-family: $tipografia-parrafos;//
   }
 
     /*List*/
@@ -135,65 +131,167 @@ li {
           color: rgba(52, 73, 94,1.0);
         }
 /*Fin Menu de hamburguesa*/
-/*Fin Menu de hamburguesa*/
-
 /*Fin CSS Header*/
 
+//Inicio Globales
+@import "globales";
 
-/*Inicia CSS Main*/
-    .baner {
-        display: block;
-        margin: auto;
-        width: 90%;
-        height: 500px;
-    }
+h1{
+    font-family: $tipografia-titulos;
+    font-size: $tamano-h1;
+    color: $color-titulos;
+}
 
-    .main-seccion1 {
-        display: flex;
-        margin: 70px 150px;
-    }
-/*Fin CSS Main*/
+h2{
+    font-family: $tipografia-titulos;
+    font-size: $tamano-h2;
+    color: $color-titulos;
+}
+
+h3{
+    font-family: $tipografia-titulos;
+    font-size: $tamano-h3;
+    color: $color-titulos;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: $tipografia-parrafos;
+    font-size: $tamano-parrafo;
+    color: $color-parrafos;
+}
+//Fin Globales
+
+//Inicia Main
+.baner {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+}
+
+.main-seccion1 {
+    display: flex;
+    margin: 70px 150px;
+}
+
+.main-seccion1 p{
+    text-align: justify;
+}
+
+.main-seccion1 h1{
+    text-align: center;
+}
+
+.img-mv{
+    padding-left: 70px;
+}
+//Fin Main
 
 /*Inicia CSS Seccion 2*/
-    .tit {
-        text-align: center;
-    }
+.tit {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
-    .main-seccion2 {
-        display: flex;
-    }
+.main-seccion2 {
+    display: flex;
+}
 
-    .main-seccion2 p {
-        text-align: justify;
-        padding: 15px 45px 0px 45px;
-    }
+.main-seccion2 p {
+    text-align: justify;
+    padding: 0 50px;
+}
 
-    .main-col1 img {
-        float: right;
-    }
+.main-col1 img {
+    display: block;
+    float: right;
+}
 
-    .main-col1 *{
-        display: inline-block;
-    } 
+.main-col1 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0;
+}
 
-    .main-col1 {
-        text-align: center;
-    }
+.main-col1 *{
+    display: inline-block;
+} 
 
-    .main-col2 img {
-        float: left;
-    }
+.main-col1 {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
-    .main-col2 *{
-        display: inline-block;
-    } 
+.main-col1:hover{
+    background-color: #FCF8F8;
+}
 
-    .main-col2 {
-        text-align: center;
-    }
-/*Fin CSS Seccion 2*/
+.main-col1 a{
+    font-family: $tipografia-enlaces;
+    font-size: $tamano-enlaces;
+    color: $color-parrafos;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: $color-hover;
+    padding: 8px;
+    background-color: $color-fondo-botones;
+    color: #ffffff;
+}
 
-/*Inicia CSS Artículos recientes*/
+.main-col1 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.main-col2 img {
+    display: block;
+    float: left;
+}
+
+.main-col2 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+.main-col2 *{
+    display: inline-block;
+} 
+
+.main-col2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main-col2:hover{
+    background-color: #FCF8F8;
+}
+
+.main-col2 a{
+    font-family: $tipografia-enlaces;
+    font-size: $tamano-enlaces;
+    color: $color-parrafos;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: $color-hover;
+    padding: 8px;
+    background-color: $color-fondo-botones;
+    color: #ffffff;
+}
+
+.main-col2 a:hover{
+    background-color: white;
+    color: black;
+}
+
+//Inicia CSS Artículos recientes
 .articulos-recientes {
     margin-top: 120px;
     display: flex;
@@ -218,17 +316,33 @@ aside {
     color: #ffffff;
 }
 
-article {
+.articulo-home {
     margin-top: 90px;
     width: 25%;
     padding: 5px;
+    text-align: center;
 }
 
-article img {
+.articulo-home:hover{
+    background-color: $color-hover;
+}
+
+.articulo-home a{
+    font-family: $tipografia-enlaces; 
+    font-size: $tamano-h3;
+    color: $color-parrafos;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.articulo-home a:hover{
+    color: $color-titulos;
+}
+
+.articulo-home img {
     width: 100%;
 }
-/*Fin CSS Artículos recientes*/
-
+//Fin Artículos recientes
 
 /*Inicia CSS de EMPRESAS*/
 .seccionplo p{
@@ -236,8 +350,17 @@ article img {
     text-align: justify;
 }
 
+.seccion-empresas:hover{
+    background: #FCF8F8;
+}
+
+.empresa-h1{
+    text-align: center;
+}
+
 .secem{
     display: flex;
+    margin-top: 45px;
 }
 
 .secem img{
@@ -248,41 +371,53 @@ article img {
 .lista{ list-style-image: url('/media/icono-lista.png');
     display: flex;
     flex-direction: column;
-    margin-top: -35px;
+    margin-top: -10px;
+    padding-right: 20px;
 }
 
 .lista li{
     margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
 }
 
-.boton-lista{
-    margin-top: 30px;
+.lista a{
     text-align: center;
-    padding: 5px;
-    border-style: none;
-    background-color: $color-fondo-botones;
-    margin-left: 220px;
-    margin-right: 220px;
-}
-
-.boton-lista:hover{
+    margin-top: 20px;
+    font-family: $tipografia-enlaces;
+    font-size: $tamano-enlaces;
+    color: $color-parrafos;
+    outline-style: solid;
+    outline-width: 1px;
+    padding:8px;
+    width: max-content;
     background-color: $color-hover;
+    color: #ffffff;
 }
 
-.boton-lista:hover{
-    color: white;
+.lista a:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
+
 
 /*Fin CSS de EMPRESAS*/
 
 //Inicia CSS de TRABAJADORES
-.h1-trab{
+.seccion-trabajadores{
     text-align: center;
 }
 
 .tra-servicios{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.tra-col-1 h2{
+    font-size: 25px;
+    background-color: white;
+    position: relative;
+    margin-left: -50px;
 }
 
 .tra-col-1{
@@ -298,6 +433,12 @@ article img {
     flex-direction: row-reverse;
 }
 
+.tra-col-2 h2{
+    font-size: 25px;
+    background-color: white;
+    position: relative;
+    margin-right: -50px;
+}
 //Fin CSS de TRABAJADORES
 
 //Inicia CSS Abogado online
@@ -309,6 +450,7 @@ article img {
 
 .abog-seccion1-a {
     width: 50%;
+    text-align: justify;
 }
 
 .abog-seccion1-b {
@@ -318,11 +460,12 @@ article img {
 .abog-seccion1-b img {
     width: 100%;
     height: 480px;
+    margin-left: 30px;
 }
 
 .titulo-abog{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .linea-1{
@@ -342,13 +485,12 @@ article img {
 }
 
 .linea-1 div:hover{
-    background-color: $color-fondo-botones;
+    background-color: $color-fondo-botones; 
 }
 
 .linea-1 img{
     width: 100%;
 }
-
 //Fin CSS Abogado online
 
 
@@ -356,29 +498,48 @@ article img {
 .contacto-seccion1 {
     display: flex;
     margin: 70px 120px;
+    text-align: justify;
+}
+
+iframe{
+    margin-left: 30px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    background-color: $color-fondo-botones;
+}
+
+.forma{
+    padding: 20px 50px;
+    background-color: $color-hover;
     margin: 70px 400px;
+}
+
+.forma h2{
     text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
-.inputs {
-    display: flex;
-    flex-direction: column;
+form input{
+    margin-top: 15px;
+    height: 23px;
 }
 
-.inputs *{
-    margin: 10px 30px;
-    height: 25px;
+.bot-enviar{
+    align-items: center;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    background-color: white;
 }
 
-.enviar {
-    margin: 10px 160px 20px 160px;
+.bot-enviar:hover{
+    background-color: $color-titulos;
+    color: white;
 }
 /*Inicia CSS Contacto*/
 
@@ -412,287 +573,3 @@ form {
     }
 
 /*Fin CSS Footer*/
-
-
-/*Inicia Media Query Celular pequeño con menu de hamburguesa*/
-@media screen and (min-width:1px) and (max-width:425px){
-    p {
-        font-size: $tamano-parrafos-cel;
-    }   
-
-    h1 {
-        font-size: $tamano-h1-cel;
-    }
-
-    h2 {
-        font-size: $tamano-h2-cel;
-    }
-    
-    .bamboo {
-        display: flex;
-    }
-
-    .logo {
-        width: 100%;
-    }
-
-    .header-seccion2 {
-        display: none;
-    }
-
-    .caja-iconos {
-        display: none;
-    }
-
-    .baner {
-        width: 100%;
-        height: 200px;
-    }
-
-    /*Inicia CSS de main*/
-    .main-seccion1 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
-    }
-    
-    .img-mv img {
-        width: 100%;
-    }
-
-    .main-seccion2 {
-        flex-wrap: wrap;
-    }
-
-    .tit {
-        margin-top: 70px;
-    }
-
-    .main-col1 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
-    }
-
-    .main-col1 img {
-        width: 100%;
-    }
-
-    .main-col2 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 90px 0 0 0;
-    }
-
-    .main-col2 img {
-        width: 100%;
-    }
-
-    /*Fin CSS main*/
-
-    /*Inicia CSS Artículos recientes*/
-    .articulos-recientes {
-        flex-direction: column;
-    }
-
-    aside {
-        width: 100%;
-    }
-
-    article {
-        width: 100%;
-        margin-top: 80px;
-        padding: 1px;
-        outline-style: groove;
-        outline-width: 1px;
-        outline-color: black;
-    }
-
-    article h3{
-        text-align: center;
-    }
-
-    /*Fin CSS Artículos recientes*/
-
-    /*Inicia CSS de empresas*/
-    .seccionplo p {
-        margin: 0;
-    }
-    ///////////////////////////
-    ////////////////////
-    
-    /*Fin CSS de empresas*/
-
-    /*Inicia CSS Abogado online*/
-    .abog-seccion1 {
-        margin-left: 0;
-        margin-right: 0;
-        flex-direction: column;
-    }
-
-    .abog-seccion1-a {
-        width: 100%;
-    }
-
-    .abog-seccion1-b {
-        width: 100%;
-    }
-
-    .abog-seccion1-b img {
-        width: 100%;
-        height: 400px;
-    }
-
-    .articulo-derecha {
-        flex-direction: column;
-        margin-top: 70px;
-    }
-
-    .articulo-derecha img {
-        width: 100%;
-    }
-
-    .articulo-derecha-a {
-        margin-right: 0;
-    }
-    
-    .articulo-derecha-b {
-        margin-left: 0;
-    }
-
-    .articulo-izquierda {
-        flex-direction: column-reverse;
-        margin-top: 70px;
-    }
-
-    .articulo-izquierda img {
-        width: 100%;
-    }
-
-    .articulo-izquierda-a {
-        margin-left: 0;
-    }
-    
-    .articulo-izquierda-b {
-        margin-right: 0;
-    }
-    /*Fin CSS Abogado online*/
-
-    /*Inicia Contacto*/
-    .contacto-seccion1 {
-        margin: 0;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    iframe {
-        width: 100%;
-        margin-top: 45px;
-    }
-
-    form {
-        width: 100%;
-        margin: 45px 0 0 0;
-    }
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .enviar {
-        margin: 10px 110px 19px 110px;
-    }
-}
-
-/*Inicia */
-/*Inicia Media Query Celular Horizontal (incluye tablets*/
-@media screen and (min-width:426px) and (max-width:768px){
-    .bamboo {
-        display: flex;
-    }
-
-    .logo {
-        width: 100%;
-    }
-
-    .caja-iconos{
-        display: none;
-    }
-
-    .header-seccion2 {
-        display: none;
-    }
-
-    .baner {
-        width: 100%;
-        height: 250px;
-    }
-    /*Fin CSS header*/
-
-    /*Inicia CSS main*/
-    
-    .main-seccion1 {
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .main-seccion2 {
-        flex-direction: column;
-    }
-
-    .main-col2{
-        margin-top: 100px;
-    }
-    /*Fin CSS main*/    
-
-    /*Inicia CSS de empresas*/
-    ///////////////
-    /////////////
-    /*Fin CSS Empresas*/
-
-    /*Inicio CSS Abogado online*/
-    .abog-seccion1 {
-        flex-direction: column-reverse;
-        width: 100%;
-        margin:0;
-    }
-
-    .abog-seccion1-a {
-        width: 100%;
-    }
-
-    .abog-seccion1-b {
-        width: 100%;
-    }
-
-    .articulo-derecha {
-        flex-direction: column;
-    }
-
-    .articulo-izquierda {
-        flex-direction: column-reverse;
-    }
-
-    .zzz {
-        margin-top: 70px;
-        text-align: center;
-    }
-    /*Fin CSS Abogado online*/
-
-    /*Inicia CSS Contacto*/
-
-    .contacto-seccion1{
-        flex-direction: column;
-        margin: 0;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    form{
-        margin: 0;
-        margin-top: 45px;
-    }
-}

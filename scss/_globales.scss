@@ -1,24 +1,29 @@
+//Tipografia global
+$tipografia-titulos: 'Alegreya', serif;
+$tipografia-parrafos: 'Alegreya Sans', sans-serif;
+$tipografia-botones: 'Alegreya Sans SC', sans-serif;
+$tipografia-enlaces: 'Alegreya Sans', sans-serif;
+
+//Tamaño de tipografía global
+$tamano-h1: 32px;
+$tamano-h2: 30px;
+$tamano-h3: 20px;
+$tamano-parrafo: 23px;
+$tamano-enlaces: 21px;
+
 /*Colores globales*/
-$color-parrafos: black;
+$color-parrafos: #000000;
 $color-titulos: #02544C;
 $color-hover: #54BBAD;
 $color-fondo-botones: #54BBAD;
 
-/*Tipografia global*/
-$tipografia-parrafos: 'Alegreya Sans', sans-serif;
-$tipografia-titulos: 'Alegreya', serif;
-$tipografia-botones: 'Alegreya SC', serif;
-
-/*Tamaño de tipografía global*/
-$tamano-parrafos: 22px;
-$tamano-h1: 35px;
-$tamano-h2: 25px;
-$tamano-h3: 23px;
-
+/*
 $tamano-parrafos-cel: 19px;
 $tamano-h1-cel: 29px;
 $tamano-h2-cel: 26px;
 $tamano-h3-cel: 20px;
 $tamano-navegacion-cel: 19px;
 
-$tamano-servicios: 22px;
+$tamano-servicios: ;
+
+*/
