@@ -413,17 +413,17 @@ aside {
     margin-right: 120px;
 }
 
+.tra-col-1{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
 .tra-col-1 h2{
     font-size: 25px;
     background-color: white;
     position: relative;
     margin-left: -50px;
-}
-
-.tra-col-1{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
 }
 
 .tra-col-2{
@@ -494,7 +494,7 @@ aside {
 //Fin CSS Abogado online
 
 
-/*Inicia CSS Contacto*/
+//Inicia Contacto
 .contacto-seccion1 {
     display: flex;
     margin: 70px 120px;
@@ -541,7 +541,7 @@ form input{
     background-color: $color-titulos;
     color: white;
 }
-/*Inicia CSS Contacto*/
+//Inicia Contacto
 
 
 /*Inicia CSS Footer*/
@@ -555,21 +555,258 @@ form input{
         height: 150px;
 }
 
-    .footer-iconos{
-        word-spacing: 10px;
-        color: white;
-    }
+.footer-iconos{
+    word-spacing: 10px;
+    color: white;
+    font-size: $tamano-footer-iconos;
+}
 
-    footer a {
-        color:#ffffff
-    }
+footer a {
+    color:#ffffff;
+    font-size: $tamano-header-enlaces;
+}
 
-    footer a:hover{
-        color: #000000;
-    }
+footer a:hover{
+    color: #000000;
+}
 
-    footer img {
-        width: 200px;
-    }
-
+footer img {
+    width: 200px;
+}
 /*Fin CSS Footer*/
+
+/*Inicia Media Query Celular pequeño con menu de hamburguesa*/
+@media screen and (min-width:1px) and (max-width:425px){
+    #menu a{
+        font-size: 19px;
+        color: #ffffff;
+        margin-top: 35px;
+    }
+    
+    //Inicio Globales
+    p {
+        font-size: $tamano-parrafos-cel;
+    }   
+
+    h1 {
+        font-size: $tamano-h1-cel;
+    }
+
+    h2 {
+        font-size: $tamano-h2-cel;
+    }
+    
+    h3 {
+        font-size: $tamano-h3-cel;
+    }
+    //Fin Globales
+
+    //Inicio Header
+    .bamboo {
+        display: flex;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .caja-iconos {
+        display: none;
+    }
+
+    .header-seccion2 {
+        display: none;
+    }
+    //Fin Header
+
+    //Inicia Main
+    .baner {
+        width: 100%;
+        height: 200px;
+    }
+
+    .main-seccion1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .img-mv img {
+        width: 100%;
+    }
+
+    .main-seccion2 {
+        flex-wrap: wrap;
+    }
+
+    .tit {
+        margin-top: 70px;
+    }
+
+    .main-col1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-col1 p{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .main-col1 img {
+        width: 90%;
+    }
+
+    .main-col2 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 90px 0 0 0;
+    }
+
+    .main-col2 p{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-col2 img {
+        width: 90%;
+    }
+
+    //Fin Main
+
+    //Inicia Artículos recientes
+    .articulos-recientes {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .articulo-home {
+        width: 100%;
+        margin-top: 80px;
+        padding: 1px;
+    }
+
+    .articulo-home h3{
+        text-align: center;
+    }
+    //Fin Artículos recientes
+
+    //Inicia empresas
+    .seccionplo p {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .secem{
+        flex-direction: column;
+    }
+
+    .secem img{
+        width: 100%;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    //Fin empresas
+
+    //Inicio Trabajadores
+    .tra-servicios {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tra-col-1{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .tra-col-1 h2{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: $tamano-h2-cel;
+    }
+
+    .tra-col-1 img{
+        width: 100%;
+    }
+
+    .tra-col-2{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .tra-col-2 h2{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: $tamano-h2-cel;
+    }
+
+    .tra-col-2 img{
+        width: 100%;
+    }
+    //Fin Trabajadores
+
+    //Inicia Abogado online
+    .abog-seccion1 {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    .abog-seccion1-a {
+        width: 100%;
+    }
+
+    .abog-seccion1-b {
+        width: 100%;
+    }
+
+    .abog-seccion1-b img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .linea-1{
+        flex-direction: column;
+    }
+
+    .linea-1 div{
+        width: 100%;
+        margin: 40px 0;
+    }
+    //Fin Abogado online
+
+    //Inicia Contacto
+    .contacto-seccion1{
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .forma{
+        padding: 10px;
+        margin: 30px 20px;
+    }
+
+    .bot-enviar{
+        margin-left: 100px;
+    }
+    //Fin Contacto
+
+    //Inicio Footer
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    //Fin Footer
+}
