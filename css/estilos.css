@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   box-sizing: border-box; }
 
@@ -376,6 +375,7 @@ aside {
   margin-right: 150px; }
 
 .abog-seccion1-a {
+  margin-top: 70px;
   width: 50%;
   text-align: justify; }
 
@@ -449,7 +449,6 @@ form input {
   background-color: #02544C;
   color: white; }
 
-/*Inicia CSS Footer*/
 footer {
   display: flex;
   justify-content: space-around;
@@ -473,8 +472,6 @@ footer a:hover {
 footer img {
   width: 200px; }
 
-/*Fin CSS Footer*/
-/*Inicia Media Query Celular pequeño con menu de hamburguesa*/
 @media screen and (min-width: 1px) and (max-width: 425px) {
   #menu a {
     font-size: 19px;
@@ -491,7 +488,11 @@ footer img {
   .bamboo {
     display: flex; }
   .logo {
-    width: 100%; }
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; }
   .caja-iconos {
     display: none; }
   .header-seccion2 {
@@ -509,12 +510,14 @@ footer img {
     flex-wrap: wrap; }
   .tit {
     margin-top: 70px; }
+  .tit h2 {
+    font-size: 23px; }
   .main-col1 {
     flex-wrap: wrap;
     width: 100%;
     margin: 0; }
   .main-col1 p {
-    padding: 10px;
+    padding: 0;
     width: 100%; }
   .main-col1 img {
     width: 90%; }
@@ -524,7 +527,7 @@ footer img {
     margin: 90px 0 0 0; }
   .main-col2 p {
     width: 100%;
-    padding: 10px; }
+    padding: 0; }
   .main-col2 img {
     width: 90%; }
   .articulos-recientes {
@@ -537,6 +540,142 @@ footer img {
     padding: 1px; }
   .articulo-home h3 {
     text-align: center; }
+  .seccionplo p {
+    margin-top: 20px;
+    padding: 0; }
+  .secem {
+    flex-direction: column; }
+  .secem img {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 30px; }
+  .tra-servicios {
+    margin-left: 0;
+    margin-right: 0; }
+  .tra-col-1 {
+    margin-top: 80px;
+    flex-direction: column; }
+  .tra-col-1 h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 23px; }
+  .tra-col-1 img {
+    width: 100%; }
+  .tra-col-2 {
+    margin-top: 80px;
+    flex-direction: column; }
+  .tra-col-2 h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 23px; }
+  .tra-col-2 img {
+    width: 100%; }
+  .abog-seccion1 {
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column; }
+  .abog-seccion1-a {
+    width: 100%;
+    margin-top: 8px; }
+  .abog-seccion1-b {
+    width: 100%; }
+  .abog-seccion1-b img {
+    width: 100%;
+    height: 300px;
+    margin-left: 0; }
+  .linea-1 {
+    flex-direction: column; }
+  .linea-1 div {
+    width: 100%;
+    margin: 40px 0; }
+  .contacto-seccion1 {
+    margin: 0;
+    flex-direction: column;
+    width: 100%; }
+  iframe {
+    width: 100%;
+    margin-left: 0; }
+  .forma {
+    padding: 10px;
+    margin: 30px 20px; }
+  .bot-enviar {
+    margin-left: 100px; }
+  footer {
+    flex-direction: column;
+    text-align: center; }
+  footer a {
+    font-size: 19px; } }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #menu a {
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 35px; }
+  p {
+    font-size: 19px; }
+  h1 {
+    font-size: 26px; }
+  h2 {
+    font-size: 23px; }
+  h3 {
+    font-size: 20px; }
+  .bamboo {
+    display: flex; }
+  .logo {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px; }
+  .caja-iconos {
+    display: none; }
+  .header-seccion2 {
+    display: none; }
+  .baner {
+    width: 100%;
+    margin: 0;
+    height: 300px; }
+  .main-seccion1 {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0; }
+  .main-seccion1 p {
+    padding: 0 70px; }
+  .img-mv img {
+    width: 100%; }
+  .main-seccion2 {
+    flex-wrap: wrap; }
+  .tit {
+    margin-top: 70px;
+    font-size: 30px; }
+  .main-col1 {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0; }
+  .main-col1 p {
+    width: 100%;
+    padding: 0; }
+  .main-col1 img {
+    width: 60%; }
+  .main-col2 {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 90px 0 0 0; }
+  .main-col2 p {
+    width: 100%;
+    padding: 0; }
+  .main-col2 img {
+    width: 60%; }
+  .articulos-recientes {
+    flex-direction: column; }
+  aside {
+    width: 100%; }
+  .articulo-home {
+    width: 100%;
+    margin-top: 80px; }
+  .articulo-home h3 a {
+    font-size: 30px; }
   .seccionplo p {
     margin-top: 20px;
     padding: 0; }
