@@ -9,8 +9,6 @@ body {
     width: $tamano-header-logo;
 }
 
-
-
 .header-seccion1 {
     display: flex;
     flex-direction: row;
@@ -229,10 +227,12 @@ p{
 }
 
 .main-col1:hover{
-    background-color: #FCF8F8;
+    background-color: rgba(84, 187, 173, 0.18);
+    border-radius: 800px;
 }
 
 .main-col1 a{
+    margin-top: 30px;
     font-family: $tipografia-enlaces;
     font-size: $tamano-enlaces;
     color: $color-parrafos;
@@ -271,10 +271,12 @@ p{
 }
 
 .main-col2:hover{
-    background-color: #FCF8F8;
+    background-color: rgba(84, 187, 173, 0.18);
+    border-radius: 800px;
 }
 
 .main-col2 a{
+    margin-top: 30px;
     font-family: $tipografia-enlaces;
     font-size: $tamano-enlaces;
     color: $color-parrafos;
@@ -324,7 +326,8 @@ aside {
 }
 
 .articulo-home:hover{
-    background-color: $color-hover;
+    background-color: rgba(84, 187, 173, 0.18);
+    border-radius: 800px;;
 }
 
 .articulo-home a{
@@ -351,7 +354,8 @@ aside {
 }
 
 .seccion-empresas:hover{
-    background: #FCF8F8;
+    background: rgba(84, 187, 173, 0.18);
+    border-radius: 30px;
 }
 
 .empresa-h1{
@@ -399,9 +403,7 @@ aside {
     background-color: #ffffff;
     color: #000000;
 }
-
-
-/*Fin CSS de EMPRESAS*/
+//Fin CSS de EMPRESAS
 
 //Inicia CSS de TRABAJADORES
 .seccion-trabajadores{
@@ -414,30 +416,48 @@ aside {
 }
 
 .tra-col-1{
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
+}
+
+.tra-col-1:hover{
+    background: rgba(84, 187, 173, 0.18);
+}
+
+.tra-col-1 img{
+    width: 600px;
 }
 
 .tra-col-1 h2{
     font-size: 25px;
     background-color: white;
+    padding: 10px;
     position: relative;
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 .tra-col-2{
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
 }
 
+.tra-col-2:hover{
+    background: rgba(84, 187, 173, 0.18);
+}
+
+.tra-col-2 img{
+    width: 600px;
+}
+
 .tra-col-2 h2{
     font-size: 25px;
     background-color: white;
+    padding: 10px;
     position: relative;
-    margin-right: -50px;
+    margin-right: -70px;
 }
 //Fin CSS de TRABAJADORES
 
@@ -486,7 +506,11 @@ aside {
 }
 
 .linea-1 div:hover{
-    background-color: $color-fondo-botones; 
+    background-color: rgba(84, 187, 173, 0.18); 
+}
+
+.linea-1 div h2:hover{
+    color: white;
 }
 
 .linea-1 img{
@@ -810,7 +834,7 @@ footer img {
     }
 
     .bot-enviar{
-        margin-left: 100px;
+        margin-left: 50px;
     }
     //Fin Contacto
 
@@ -906,7 +930,7 @@ footer img {
     .main-col1 {
         flex-wrap: wrap;
         width: 100%;
-        margin: 0;
+        margin: 0 60px;
     }
 
     .main-col1 p{
@@ -921,7 +945,7 @@ footer img {
     .main-col2 {
         flex-wrap: wrap;
         width: 100%;
-        margin: 90px 0 0 0;
+        margin: 90px 60px 0 60px;
     }
 
     .main-col2 p{
@@ -932,7 +956,6 @@ footer img {
     .main-col2 img {
         width: 60%;
     }
-
     //Fin Main
 
     //Inicia Artículos recientes
@@ -956,8 +979,8 @@ footer img {
 
     //Inicia empresas
     .seccionplo p {
-        margin-top: 20px;
         padding: 0;
+        margin: 70px 80px;
     }
 
     .secem{
@@ -965,9 +988,13 @@ footer img {
     }
 
     .secem img{
-        width: 100%;
-        height: 260px;
-        margin-bottom: 30px;
+        display: block;
+        margin: auto;
+        height: 360px;
+    }
+
+    .lista {
+        margin-top: 50px;
     }
     //Fin empresas
 
@@ -990,7 +1017,7 @@ footer img {
     }
 
     .tra-col-1 img{
-        width: 100%;
+        height: 360px;
     }
 
     .tra-col-2{
@@ -1006,19 +1033,30 @@ footer img {
     }
 
     .tra-col-2 img{
-        width: 100%;
+        height: 360px;
     }
     //Fin Trabajadores
 
     //Inicia Abogado online
     .abog-seccion1 {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 70px;
+        margin-right: 70px;
         flex-direction: column;
     }
 
     .abog-seccion1-a {
+        margin-top: 0;
         width: 100%;
+    }
+
+    .abog-seccion1-a p{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .abog-seccion1-a h1{
+        text-align: left;
+        margin-left: 40px;
     }
 
     .abog-seccion1-b {
@@ -1026,12 +1064,18 @@ footer img {
     }
 
     .abog-seccion1-b img {
-        width: 100%;
-        height: 300px;
+        margin-left: 0;
     }
 
     .linea-1{
         flex-direction: column;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .linea-1 p{
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .linea-1 div{
@@ -1047,18 +1091,23 @@ footer img {
         width: 100%;
     }
 
+    .contacto-seccion1 p{
+        margin: 20px 70px;
+    }
+
     iframe{
         width: 100%;
+        margin-top: 30px;
         margin-left: 0;
     }
 
     .forma{
         padding: 10px;
-        margin: 30px 20px;
+        margin: 60px 130px;
     }
 
     .bot-enviar{
-        margin-left: 100px;
+        margin-left: 160px;
     }
     //Fin Contacto
 

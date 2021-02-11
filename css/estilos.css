@@ -196,9 +196,11 @@ p {
   padding-bottom: 50px; }
 
 .main-col1:hover {
-  background-color: #FCF8F8; }
+  background-color: rgba(84, 187, 173, 0.18);
+  border-radius: 800px; }
 
 .main-col1 a {
+  margin-top: 30px;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 21px;
   color: #000000;
@@ -231,9 +233,11 @@ p {
   padding-bottom: 50px; }
 
 .main-col2:hover {
-  background-color: #FCF8F8; }
+  background-color: rgba(84, 187, 173, 0.18);
+  border-radius: 800px; }
 
 .main-col2 a {
+  margin-top: 30px;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 21px;
   color: #000000;
@@ -275,7 +279,8 @@ aside {
   text-align: center; }
 
 .articulo-home:hover {
-  background-color: #54BBAD; }
+  background-color: rgba(84, 187, 173, 0.18);
+  border-radius: 800px; }
 
 .articulo-home a {
   font-family: "Alegreya Sans", sans-serif;
@@ -296,7 +301,8 @@ aside {
   text-align: justify; }
 
 .seccion-empresas:hover {
-  background: #FCF8F8; }
+  background: rgba(84, 187, 173, 0.18);
+  border-radius: 30px; }
 
 .empresa-h1 {
   text-align: center; }
@@ -338,7 +344,6 @@ aside {
   background-color: #ffffff;
   color: #000000; }
 
-/*Fin CSS de EMPRESAS*/
 .seccion-trabajadores {
   text-align: center; }
 
@@ -347,27 +352,41 @@ aside {
   margin-right: 120px; }
 
 .tra-col-1 {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   align-items: center; }
+
+.tra-col-1:hover {
+  background: rgba(84, 187, 173, 0.18); }
+
+.tra-col-1 img {
+  width: 600px; }
 
 .tra-col-1 h2 {
   font-size: 25px;
   background-color: white;
+  padding: 10px;
   position: relative;
-  margin-left: -50px; }
+  margin-left: -70px; }
 
 .tra-col-2 {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse; }
 
+.tra-col-2:hover {
+  background: rgba(84, 187, 173, 0.18); }
+
+.tra-col-2 img {
+  width: 600px; }
+
 .tra-col-2 h2 {
   font-size: 25px;
   background-color: white;
+  padding: 10px;
   position: relative;
-  margin-right: -50px; }
+  margin-right: -70px; }
 
 .abog-seccion1 {
   display: flex;
@@ -405,7 +424,10 @@ aside {
   padding: 0 25px; }
 
 .linea-1 div:hover {
-  background-color: #54BBAD; }
+  background-color: rgba(84, 187, 173, 0.18); }
+
+.linea-1 div h2:hover {
+  color: white; }
 
 .linea-1 img {
   width: 100%; }
@@ -601,7 +623,7 @@ footer img {
     padding: 10px;
     margin: 30px 20px; }
   .bot-enviar {
-    margin-left: 100px; }
+    margin-left: 50px; }
   footer {
     flex-direction: column;
     text-align: center; }
@@ -652,7 +674,7 @@ footer img {
   .main-col1 {
     flex-wrap: wrap;
     width: 100%;
-    margin: 0; }
+    margin: 0 60px; }
   .main-col1 p {
     width: 100%;
     padding: 0; }
@@ -661,7 +683,7 @@ footer img {
   .main-col2 {
     flex-wrap: wrap;
     width: 100%;
-    margin: 90px 0 0 0; }
+    margin: 90px 60px 0 60px; }
   .main-col2 p {
     width: 100%;
     padding: 0; }
@@ -677,14 +699,16 @@ footer img {
   .articulo-home h3 a {
     font-size: 30px; }
   .seccionplo p {
-    margin-top: 20px;
-    padding: 0; }
+    padding: 0;
+    margin: 70px 80px; }
   .secem {
     flex-direction: column; }
   .secem img {
-    width: 100%;
-    height: 260px;
-    margin-bottom: 30px; }
+    display: block;
+    margin: auto;
+    height: 360px; }
+  .lista {
+    margin-top: 50px; }
   .tra-servicios {
     margin-left: 0;
     margin-right: 0; }
@@ -697,7 +721,7 @@ footer img {
     width: 100%;
     font-size: 23px; }
   .tra-col-1 img {
-    width: 100%; }
+    height: 360px; }
   .tra-col-2 {
     margin-top: 80px;
     flex-direction: column; }
@@ -707,20 +731,31 @@ footer img {
     width: 100%;
     font-size: 23px; }
   .tra-col-2 img {
-    width: 100%; }
+    height: 360px; }
   .abog-seccion1 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 70px;
+    margin-right: 70px;
     flex-direction: column; }
   .abog-seccion1-a {
+    margin-top: 0;
     width: 100%; }
+  .abog-seccion1-a p {
+    margin-left: 80px;
+    margin-right: 80px; }
+  .abog-seccion1-a h1 {
+    text-align: left;
+    margin-left: 40px; }
   .abog-seccion1-b {
     width: 100%; }
   .abog-seccion1-b img {
-    width: 100%;
-    height: 300px; }
+    margin-left: 0; }
   .linea-1 {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px; }
+  .linea-1 p {
+    padding-left: 60px;
+    padding-right: 60px; }
   .linea-1 div {
     width: 100%;
     margin: 40px 0; }
@@ -728,14 +763,17 @@ footer img {
     margin: 0;
     flex-direction: column;
     width: 100%; }
+  .contacto-seccion1 p {
+    margin: 20px 70px; }
   iframe {
     width: 100%;
+    margin-top: 30px;
     margin-left: 0; }
   .forma {
     padding: 10px;
-    margin: 30px 20px; }
+    margin: 60px 130px; }
   .bot-enviar {
-    margin-left: 100px; }
+    margin-left: 160px; }
   footer {
     flex-direction: column;
     text-align: center; } }
