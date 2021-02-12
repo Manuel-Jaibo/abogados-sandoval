@@ -426,9 +426,6 @@ aside {
 .linea-1 div:hover {
   background-color: rgba(84, 187, 173, 0.18); }
 
-.linea-1 div h2:hover {
-  color: white; }
-
 .linea-1 img {
   width: 100%; }
 
@@ -470,6 +467,32 @@ form input {
 .bot-enviar:hover {
   background-color: #02544C;
   color: white; }
+
+.baner-blogs {
+  display: block;
+  margin: auto;
+  width: 1300px;
+  height: 500px; }
+
+.seccion-blog {
+  background: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  margin-top: -150px; }
+
+.seccion-blog p {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.seccion-blog h1 {
+  padding: 30px 70px;
+  text-align: center; }
+
+.seccion-blog h2 {
+  padding: 30px 70px;
+  text-align: center; }
 
 footer {
   display: flex;
