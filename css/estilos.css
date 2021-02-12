@@ -414,6 +414,9 @@ aside {
   display: flex;
   justify-content: center; }
 
+.linea-1 h2 {
+  font-size: 23px; }
+
 .linea-1 div {
   width: 30%;
   margin: 15px;
@@ -493,6 +496,24 @@ form input {
 .seccion-blog h2 {
   padding: 30px 70px;
   text-align: center; }
+
+.img-blog-4 {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 10px; }
+
+.img-blog-5 {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 10px; }
+
+.lista-blog li {
+  list-style-image: url("/media/icono-lista.png");
+  font-size: 23px;
+  margin: 15px 80px;
+  text-align: justify; }
 
 footer {
   display: flex;
@@ -647,6 +668,23 @@ footer img {
     margin: 30px 20px; }
   .bot-enviar {
     margin-left: 50px; }
+  .baner-blogs {
+    width: 100%;
+    height: 180px; }
+  .seccion-blog {
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .seccion-blog p {
+    padding-left: 2px;
+    padding-right: 2px; }
+  .seccion-blog h1 {
+    padding: 10px 0; }
+  .seccion-blog h2 {
+    padding: 10px 0; }
+  .lista-blog li {
+    font-size: 19px;
+    margin: 15px 0; }
   footer {
     flex-direction: column;
     text-align: center; }
@@ -797,6 +835,23 @@ footer img {
     margin: 60px 130px; }
   .bot-enviar {
     margin-left: 160px; }
+  .baner-blogs {
+    width: 700px;
+    height: 360px; }
+  .seccion-blog {
+    margin-top: -100px;
+    margin-left: 80px;
+    margin-right: 80px; }
+  .seccion-blog p {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .seccion-blog h1 {
+    padding: 10px; }
+  .seccion-blog h2 {
+    padding: 10px; }
+  .lista-blog li {
+    font-size: 19px;
+    margin: 15px 0; }
   footer {
     flex-direction: column;
     text-align: center; } }

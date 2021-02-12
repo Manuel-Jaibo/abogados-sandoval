@@ -494,6 +494,10 @@ aside {
     justify-content: center;
 }
 
+.linea-1 h2{
+    font-size: 23px;
+}
+
 .linea-1 div{
     width: 30%;
     margin: 15px;
@@ -562,7 +566,7 @@ form input{
     background-color: $color-titulos;
     color: white;
 }
-//Inicia Contacto
+//Fin Contacto
 
 @import "blog";
 //Inicia blogs
@@ -597,7 +601,28 @@ form input{
     text-align: center;
 }
 
+//imagen interna del blog 4
+.img-blog-4{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
 
+//imagen interna del blog 5
+.img-blog-5{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+//lista interna del blog 3
+.lista-blog li{list-style-image: url('/media/icono-lista.png');
+    font-size: $tamano-parrafo;
+    margin: 15px 80px;
+    text-align: justify;
+}
 //Fin blogs
 
 //Inicia CSS Footer
@@ -868,6 +893,37 @@ footer img {
         margin-left: 50px;
     }
     //Fin Contacto
+
+    //Inicia blogs
+    .baner-blogs{
+        width: 100%;
+        height: 180px;
+    }
+
+    .seccion-blog{
+        margin-top: -70px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .seccion-blog p{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .seccion-blog h1{
+        padding: 10px 0;
+    }
+
+    .seccion-blog h2{
+        padding: 10px 0;
+    }
+
+    //imagen interna del blog 3
+    .lista-blog li{
+        font-size: $tamano-parrafos-cel;
+        margin: 15px 0;
+    }
 
     //Inicio Footer
     footer {
@@ -1141,6 +1197,37 @@ footer img {
         margin-left: 160px;
     }
     //Fin Contacto
+
+    //Inicia blogs
+    .baner-blogs{
+        width: 700px;
+        height: 360px;
+    }
+
+    .seccion-blog{
+        margin-top: -100px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .seccion-blog p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .seccion-blog h1{
+        padding: 10px;
+    }
+
+    .seccion-blog h2{
+        padding: 10px;
+    }
+
+    //imagen interna del blog 3
+    .lista-blog li{
+        font-size: $tamano-parrafos-cel;
+        margin: 15px 0;
+    }
 
     //Inicio Footer
     footer {
