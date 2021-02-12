@@ -393,6 +393,9 @@ aside {
   margin-left: 150px;
   margin-right: 150px; }
 
+.abog-seccion1 a:hover {
+  background-color: rgba(84, 187, 173, 0.18); }
+
 .abog-seccion1-a {
   margin-top: 70px;
   width: 50%;
