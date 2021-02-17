@@ -124,17 +124,17 @@ li {
 /*Fin CSS Header*/
 /*Colores globales*/
 h1 {
-  font-family: "Alegreya", serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 32px;
   color: #02544C; }
 
 h2 {
-  font-family: "Alegreya", serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 30px;
   color: #02544C; }
 
 h3 {
-  font-family: "Alegreya", serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 20px;
   color: #02544C; }
 
@@ -201,7 +201,7 @@ p {
 
 .main-col1 a {
   margin-top: 30px;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 21px;
   color: #000000;
   outline-style: solid;
@@ -238,7 +238,7 @@ p {
 
 .main-col2 a {
   margin-top: 30px;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 21px;
   color: #000000;
   outline-style: solid;
@@ -283,7 +283,7 @@ aside {
   border-radius: 800px; }
 
 .articulo-home a {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 20px;
   color: #000000;
   padding-right: 10px;
@@ -330,7 +330,7 @@ aside {
 .lista a {
   text-align: center;
   margin-top: 20px;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 21px;
   color: #000000;
   outline-style: solid;
@@ -360,8 +360,7 @@ aside {
   background: rgba(84, 187, 173, 0.18); }
 
 .tra-col-1 img {
-  width: 490px; 
-}
+  width: 600px; }
 
 .tra-col-1 h2 {
   font-size: 25px;
@@ -380,7 +379,7 @@ aside {
   background: rgba(84, 187, 173, 0.18); }
 
 .tra-col-2 img {
-  width: 490px; }
+  width: 600px; }
 
 .tra-col-2 h2 {
   font-size: 25px;
@@ -691,7 +690,8 @@ footer img {
     margin: 15px 0; }
   footer {
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    height: 200px; }
   footer a {
     font-size: 19px; } }
 
@@ -858,4 +858,5 @@ footer img {
     margin: 15px 0; }
   footer {
     flex-direction: column;
-    text-align: center; } }
+    text-align: center;
+    height: 220px; } }

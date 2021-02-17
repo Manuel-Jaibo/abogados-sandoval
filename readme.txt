@@ -8,8 +8,8 @@ Colores:
 
 Tipografía:
     Alegreya serif: títulos y subtítulos variando su peso para dar jerarquía.
-    Alegreya Sans: sitio web a excepción de títulos y subtítulos
-    Alegreya Small Caps: para resaltar texto breve
+    Alegreya Sans: sitio web a excepción de títulos y subtítulos 'Alegreya Sans', sans-serif;
+    Alegreya Small Caps: para resaltar texto breve 
 
 Dominio: abogadossandoval.com 
 Hosting: Hostiger
