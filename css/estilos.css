@@ -296,6 +296,31 @@ aside {
   width: 100%; }
 
 /*Inicia CSS de EMPRESAS*/
+.iconos-landing {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px; }
+
+.iconos-landing div {
+  width: 25%; }
+
+.iconos-landing2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px; }
+
+.iconos-landing2 div {
+  width: 20%; }
+
+.un-icono {
+  text-align: center; }
+
+.un-icono i {
+  color: darkblue; }
+
+.h2-landing {
+  font-size: 15px; }
+
 .seccionplo p {
   padding: 50px 200px;
   text-align: justify; }
