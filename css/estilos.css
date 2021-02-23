@@ -301,25 +301,67 @@ aside {
   justify-content: center;
   margin-top: 70px; }
 
-.iconos-landing div {
-  width: 25%; }
+.iconos-landing h2 {
+  color: black; }
 
 .iconos-landing2 {
   display: flex;
   justify-content: center;
   margin-top: 80px; }
 
+.iconos-landing2 h2 {
+  color: black; }
+
+.iconos-landing3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px; }
+
+.iconos-landing3 h2 {
+  color: black; }
+
+.iconos-landing div {
+  width: 30%; }
+
 .iconos-landing2 div {
-  width: 20%; }
+  width: 25%; }
+
+.iconos-landing3 div {
+  width: 30%; }
 
 .un-icono {
-  text-align: center; }
+  text-align: center;
+  padding: 10px;
+  color: #009F8B; }
 
-.un-icono i {
-  color: darkblue; }
+.un-icono:hover {
+  background-color: rgba(84, 187, 173, 0.18); }
 
 .h2-landing {
   font-size: 15px; }
+
+.form-empresas h3 {
+  color: white;
+  text-align: center; }
+
+.seccion-2-landing {
+  display: flex;
+  margin-top: 120px;
+  background-color: #009F8B; }
+
+.seccion-2-landing div {
+  width: 50%;
+  margin: 50px; }
+
+.jepe {
+  color: white; }
+
+.jipi {
+  color: white; }
+
+.form-empresas {
+  background-color: #02544C;
+  padding: 30px; }
 
 .seccionplo p {
   padding: 50px 200px;
@@ -637,12 +679,10 @@ footer img {
   .seccionplo p {
     margin-top: 20px;
     padding: 0; }
-  .secem {
+  .iconos-landing {
     flex-direction: column; }
-  .secem img {
-    width: 100%;
-    height: 260px;
-    margin-bottom: 30px; }
+  .iconos-landing div {
+    width: 100%; }
   .tra-servicios {
     margin-left: 0;
     margin-right: 0; }
