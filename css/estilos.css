@@ -431,10 +431,12 @@ aside {
 
 .tra-col-1 h2 {
   font-size: 25px;
-  background-color: white;
-  padding: 10px;
+  padding: 10px; }
+
+.tracoldivder {
   position: relative;
-  margin-left: -70px; }
+  margin-left: -70px;
+  background-color: white; }
 
 .tra-col-2 {
   margin-top: 60px;
@@ -450,10 +452,12 @@ aside {
 
 .tra-col-2 h2 {
   font-size: 25px;
-  background-color: white;
-  padding: 10px;
+  padding: 10px; }
+
+.tracoldiviz {
   position: relative;
-  margin-right: -70px; }
+  margin-right: -70px;
+  background-color: white; }
 
 .abog-seccion1 {
   display: flex;
