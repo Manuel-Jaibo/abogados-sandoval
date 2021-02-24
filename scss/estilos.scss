@@ -352,7 +352,7 @@ aside {
 .iconos-landing{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .iconos-landing h2{
@@ -405,11 +405,6 @@ aside {
     font-size: 15px;
 }
 
-.form-empresas h3{
-    color:white;
-    text-align: center;
-}
-
 .seccion-2-landing{
     display: flex;
     margin-top: 120px;
@@ -419,6 +414,11 @@ aside {
 .seccion-2-landing div{
     width: 50%;
     margin: 50px;
+}
+
+.form-empresas h3{
+    color:white;
+    text-align: center;
 }
 
 .jepe{
@@ -433,67 +433,14 @@ aside {
     background-color: $color-titulos;
     padding: 30px;
 }
-//Fin Landing Empresas 
-
-
-.seccionplo p{
-    padding: 50px 200px;
-    text-align: justify;
-}
-
-.seccion-empresas:hover{
-    background: rgba(84, 187, 173, 0.18);
-    border-radius: 30px;
-}
 
 .empresa-h1{
     text-align: center;
 }
 
-.secem{
-    display: flex;
-    margin-top: 45px;
-}
+//Fin landing EMPRESAS
 
-.secem img{
-    width:600px;
-    height: 520px;
-}
-
-.lista{ list-style-image: url('/media/icono-lista.png');
-    display: flex;
-    flex-direction: column;
-    margin-top: -10px;
-    padding-right: 20px;
-}
-
-.lista li{
-    margin-top: 10px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-.lista a{
-    text-align: center;
-    margin-top: 20px;
-    font-family: $tipografia-enlaces;
-    font-size: $tamano-enlaces;
-    color: $color-parrafos;
-    outline-style: solid;
-    outline-width: 1px;
-    padding:8px;
-    width: max-content;
-    background-color: $color-hover;
-    color: #ffffff;
-}
-
-.lista a:hover{
-    background-color: #ffffff;
-    color: #000000;
-}
-//Fin CSS de EMPRESAS
-
-//Inicia CSS de TRABAJADORES
+//Inicia TRABAJADORES
 .seccion-trabajadores{
     text-align: center;
 }
@@ -891,30 +838,85 @@ footer img {
 
     .iconos-landing{
         flex-direction: column;
+        margin-top: -10px;
+    }
+
+    .iconos-landing2{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .iconos-landing3{
+        flex-direction: column;
+        margin-top: 0;
     }
 
     .iconos-landing div{
         width: 100%;
+        margin-top: 35px;
     }
 
+    .iconos-landing2 div{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .iconos-landing3 div{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .un-icono{
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .seccion-2-landing{
+        flex-direction: column;
+    }
+
+    .seccion-2-landing div{
+        width: 100%;
+        margin: 0;
+    }
+
+    .pamv{
+        padding: 2px;
+    }
+    
+    .empresa-h1{
+        margin-top: 90px;
+    }
     //Fin empresas landing
 
     //Inicio Trabajadores
+    .seccion-trabajadores h1{
+        margin-top: 70px;
+    }
+
     .tra-servicios {
         margin-left: 0;
         margin-right: 0;
     }
 
     .tra-col-1{
-        margin-top: 80px;
+        margin-top: 50px;
         flex-direction: column;
     }
 
     .tra-col-1 h2{
-        margin: 0;
+        margin: 20px 0 0 0;
         padding: 0;
         width: 100%;
         font-size: $tamano-h2-cel;
+    }
+
+    .tracoldivder{
+        margin-left: 0;
+    }
+
+    .tracoldiviz{
+        margin-right: 0;
     }
 
     .tra-col-1 img{
@@ -922,12 +924,12 @@ footer img {
     }
 
     .tra-col-2{
-        margin-top: 80px;
+        margin-top: 50px;
         flex-direction: column;
     }
 
     .tra-col-2 h2{
-        margin: 0;
+        margin: 20px 0 0 0;
         padding: 0;
         width: 100%;
         font-size: $tamano-h2-cel;

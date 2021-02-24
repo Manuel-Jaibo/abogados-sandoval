@@ -299,7 +299,7 @@ aside {
 .iconos-landing {
   display: flex;
   justify-content: center;
-  margin-top: 70px; }
+  margin-top: 80px; }
 
 .iconos-landing h2 {
   color: black; }
@@ -340,10 +340,6 @@ aside {
 .h2-landing {
   font-size: 15px; }
 
-.form-empresas h3 {
-  color: white;
-  text-align: center; }
-
 .seccion-2-landing {
   display: flex;
   margin-top: 120px;
@@ -352,6 +348,10 @@ aside {
 .seccion-2-landing div {
   width: 50%;
   margin: 50px; }
+
+.form-empresas h3 {
+  color: white;
+  text-align: center; }
 
 .jepe {
   color: white; }
@@ -363,53 +363,8 @@ aside {
   background-color: #02544C;
   padding: 30px; }
 
-.seccionplo p {
-  padding: 50px 200px;
-  text-align: justify; }
-
-.seccion-empresas:hover {
-  background: rgba(84, 187, 173, 0.18);
-  border-radius: 30px; }
-
 .empresa-h1 {
   text-align: center; }
-
-.secem {
-  display: flex;
-  margin-top: 45px; }
-
-.secem img {
-  width: 600px;
-  height: 520px; }
-
-.lista {
-  list-style-image: url("/media/icono-lista.png");
-  display: flex;
-  flex-direction: column;
-  margin-top: -10px;
-  padding-right: 20px; }
-
-.lista li {
-  margin-top: 10px;
-  font-size: 18px;
-  text-align: justify; }
-
-.lista a {
-  text-align: center;
-  margin-top: 20px;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 21px;
-  color: #000000;
-  outline-style: solid;
-  outline-width: 1px;
-  padding: 8px;
-  width: max-content;
-  background-color: #54BBAD;
-  color: #ffffff; }
-
-.lista a:hover {
-  background-color: #ffffff;
-  color: #000000; }
 
 .seccion-trabajadores {
   text-align: center; }
@@ -684,27 +639,59 @@ footer img {
     margin-top: 20px;
     padding: 0; }
   .iconos-landing {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: -10px; }
+  .iconos-landing2 {
+    flex-direction: column;
+    margin-top: 0; }
+  .iconos-landing3 {
+    flex-direction: column;
+    margin-top: 0; }
   .iconos-landing div {
-    width: 100%; }
+    width: 100%;
+    margin-top: 35px; }
+  .iconos-landing2 div {
+    width: 100%;
+    margin-top: 35px; }
+  .iconos-landing3 div {
+    width: 100%;
+    margin-top: 35px; }
+  .un-icono {
+    width: 100%;
+    padding: 30px 0; }
+  .seccion-2-landing {
+    flex-direction: column; }
+  .seccion-2-landing div {
+    width: 100%;
+    margin: 0; }
+  .pamv {
+    padding: 2px; }
+  .empresa-h1 {
+    margin-top: 90px; }
+  .seccion-trabajadores h1 {
+    margin-top: 70px; }
   .tra-servicios {
     margin-left: 0;
     margin-right: 0; }
   .tra-col-1 {
-    margin-top: 80px;
+    margin-top: 50px;
     flex-direction: column; }
   .tra-col-1 h2 {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     width: 100%;
     font-size: 23px; }
+  .tracoldivder {
+    margin-left: 0; }
+  .tracoldiviz {
+    margin-right: 0; }
   .tra-col-1 img {
     width: 100%; }
   .tra-col-2 {
-    margin-top: 80px;
+    margin-top: 50px;
     flex-direction: column; }
   .tra-col-2 h2 {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     width: 100%;
     font-size: 23px; }
