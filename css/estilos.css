@@ -1,5 +1,6 @@
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0; }
 
 /*inicia CSS Header*/
 .logo {
@@ -79,6 +80,7 @@ li {
 /*List container*/
 #menu {
   position: absolute;
+  height: fit-content;
   top: 10em;
   left: 1em;
   width: 80%;
@@ -99,16 +101,10 @@ li {
 /*List items*/
 #menu ul li {
   list-style-type: none;
-  left: 0;
-  padding: .5em;
+  margin-bottom: 10px;
+  margin-top: 10px;
   color: #00FFCA;
   transition: all .3s ease-out; }
-
-/*Subscribe link*/
-#menu ul li:last-child {
-  margin-top: .5em;
-  padding-top: 1em;
-  border-top: 1px solid #00FFCA; }
 
 /*Cursor and text undelrine on hover*/
 #menu ul li:hover {
@@ -119,6 +115,10 @@ li {
 #menu ul li:active {
   background-color: #00FFCA;
   color: #34495e; }
+
+#menu ul li a {
+  font-size: 30px;
+  vertical-align: middle; }
 
 /*Fin Menu de hamburguesa*/
 /*Fin CSS Header*/
@@ -151,6 +151,19 @@ p {
   margin: auto;
   width: 90%;
   height: 500px; }
+
+.ban1 {
+  height: 500px;
+  width: 90%;
+  background-image: url("/media/portada-inicio.jpg");
+  background-size: cover;
+  margin: auto; }
+
+.ban11 {
+  background-color: #54bbad;
+  width: fit-content;
+  height: fit-content;
+  padding: 30px; }
 
 .main-seccion1 {
   display: flex;
