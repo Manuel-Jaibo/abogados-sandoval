@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
-  margin: 0; }
+  margin: 0;
+  background-color: rgba(84, 187, 173, 0.1); }
 
 /*inicia CSS Header*/
 .logo {
@@ -153,17 +154,39 @@ p {
   height: 500px; }
 
 .ban1 {
+  background-size: cover;
+  background-image: url("/media/portada-inicio.jpg");
   height: 500px;
   width: 90%;
-  background-image: url("/media/portada-inicio.jpg");
-  background-size: cover;
-  margin: auto; }
+  margin: auto;
+  text-align: center; }
 
 .ban11 {
-  background-color: #54bbad;
+  background-color: rgba(84, 187, 173, 0.8);
+  border-radius: 20px;
   width: fit-content;
-  height: fit-content;
-  padding: 30px; }
+  padding: 10px;
+  position: absolute;
+  margin: 100px; }
+
+.slogan {
+  font-size: 35px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.ban11 button {
+  padding: 10px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: whitesmoke;
+  font-size: medium;
+  margin-bottom: 15px; }
+
+.ban11 button:hover {
+  background-color: rgba(84, 187, 173, 0.8); }
 
 .main-seccion1 {
   display: flex;
@@ -611,6 +634,18 @@ footer img {
   .baner {
     width: 100%;
     height: 200px; }
+  .ban1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    padding: 0; }
+  .ban11 {
+    display: none; }
+  .slogan {
+    display: none; }
+  .ban11 button {
+    display: none; }
   .main-seccion1 {
     flex-wrap: wrap;
     width: 100%;
