@@ -85,10 +85,10 @@ li {
   
   /*List container*/
   #menu{ 
-    position: absolute; 
+    position: relative; 
     height: fit-content;
-    top: 10em; left: 1em; 
-    width: 80%;
+    top: 10em;
+    width: 100%;
     border: .5em solid  black; 
     font-size: 5px;
     background-color: #54BBAD;
@@ -103,7 +103,7 @@ li {
     /*List*/
     #menu ul{ padding: 0; margin: 0; }
       /*List items*/
-      #menu ul li{ 
+      #menu ul li{   
         list-style-type: none;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -178,34 +178,8 @@ p{
 }
 
 .ban11{
-    background-color: rgba(84, 187, 173, .8);
-    border-radius: 20px;
-    width: fit-content;
-    padding: 10px;
     position: absolute;
-    margin: 100px;
-}
-
-.slogan{
-    font-size: 35px;
-    font-weight: 600;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.ban11 button{
-    padding: 10px;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
-    background-color: whitesmoke;
-    font-size: medium;
-    margin-bottom: 15px;
-}
-
-.ban11 button:hover{
-    background-color: rgba(84, 187, 173, .8);
+    margin: -400px 200px;
 }
 
 .main-seccion1 {
@@ -670,6 +644,7 @@ form input{
     margin-right: 200px;
     position: relative;
     margin-top: -150px;
+    padding: 15px;
 }
 
 .seccion-blog p{
@@ -690,10 +665,11 @@ form input{
 
 //imagen interna del blog 4
 .img-blog-4{
-    width: 70%;
+    width: 90%;
+    height: 150px;
     display: block;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
 }
 
 //imagen interna del blog 5
@@ -720,7 +696,8 @@ form input{
         align-items: center;
         margin-top: 130px;
         background-color: #02544C;
-        height: 150px;
+        height: 140px;
+        padding: 10px;
 }
 
 .footer-iconos{
@@ -792,9 +769,8 @@ footer img {
     //Fin Header
 
     //Inicia Main
-    .baner {
-        width: 100%;
-        height: 200px;
+    .baner{
+        height: 280px;
     }
 
     .ban1{
@@ -806,15 +782,12 @@ footer img {
     }
 
     .ban11{
-        display: none;
+        position: relative;
+        margin: -40px 15px 20px;
     }
 
-    .slogan{
-        display: none;
-    }
-
-    .ban11 button{
-        display: none;
+    .form-empresas{
+        padding: 10px;
     }
 
     .main-seccion1 {
@@ -833,10 +806,6 @@ footer img {
 
     .tit {
         margin-top: 70px;
-    }
-
-    .tit h2{
-        font-size: $tamano-h2-cel;
     }
 
     .main-col1 {
@@ -868,7 +837,6 @@ footer img {
     .main-col2 img {
         width: 90%;
     }
-
     //Fin Main
 
     //Inicia Artículos recientes
@@ -1147,10 +1115,14 @@ footer img {
     //Fin Header
 
     //Inicia Main
-    .baner {
-        width: 100%;
-        margin: 0;
-        height: 300px;
+    .ban1{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .ban11{
+        position: inherit;
+        margin: -250px 150px 20px;
     }
 
     .main-seccion1 {
@@ -1173,7 +1145,6 @@ footer img {
 
     .tit {
         margin-top: 70px;
-        font-size: 30px;
     }
 
     .main-col1 {
