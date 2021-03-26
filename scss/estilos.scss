@@ -1,4 +1,3 @@
-
 body {
     box-sizing: border-box;
     margin: 0;
@@ -638,7 +637,7 @@ form input{
     height: $tamano-baner-blog-height;
 }
 
-.seccion-blog{
+#seccion-blog{
     background: white;
     margin-left: 200px;
     margin-right: 200px;
@@ -662,6 +661,8 @@ form input{
     padding: 30px 70px;
     text-align: center;
 }
+
+
 
 //imagen interna del blog 4
 .img-blog-4{

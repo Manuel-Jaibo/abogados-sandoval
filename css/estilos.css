@@ -518,10 +518,10 @@ form input {
 .baner-blogs {
   display: block;
   margin: auto;
-  width: 1200px;
+  width: 1100px;
   height: 500px; }
 
-.seccion-blog {
+#seccion-blog {
   background: white;
   margin-left: 200px;
   margin-right: 200px;
