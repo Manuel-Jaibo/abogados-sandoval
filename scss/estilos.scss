@@ -156,6 +156,7 @@ p{
     font-family: $tipografia-parrafos;
     font-size: $tamano-parrafo;
     color: $color-parrafos;
+    padding: 5px;
 }
 //Fin Globales
 
@@ -721,6 +722,14 @@ footer img {
 }
 //Fin CSS Footer
 
+
+/////////////////////////////////
+/////////////////////////////////
+/////////////////////////////////
+///////CELULAR VERTICAL//////////
+/////////////////////////////////
+/////////////////////////////////
+/////////////////////////////////
 //Inicia Media Query Celular pequeño con menu de hamburguesa
 @media screen and (min-width:1px) and (max-width:425px){
     #menu a{
@@ -732,6 +741,7 @@ footer img {
     //Inicio Globales
     p {
         font-size: $tamano-parrafos-cel;
+        padding: 5px;
     }   
 
     h1 {
@@ -1030,7 +1040,7 @@ footer img {
         height: 180px;
     }
 
-    .seccion-blog{
+    #seccion-blog{
         margin-top: -70px;
         margin-left: 20px;
         margin-right: 20px;
@@ -1068,6 +1078,13 @@ footer img {
     //Fin Footer
 }
 
+/////////////////////////////////
+/////////////////////////////////
+/////////////////////////////////
+///////CELULAR HORIZONTAL////////
+/////////////////////////////////
+/////////////////////////////////
+/////////////////////////////////
 //Inicia Media Query Celular Horizontal (incluye tablets)
 @media screen and (min-width:426px) and (max-width:768px){
     #menu a{
@@ -1079,6 +1096,7 @@ footer img {
     //Inicio Globales
     p {
         font-size: $tamano-parrafos-cel;
+        padding: 5px;
     }   
 
     h1 {

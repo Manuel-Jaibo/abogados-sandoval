@@ -5,3 +5,4 @@ $("#menu").hide();
 $("#menu-btn").click(function(){
   $("#menu").slideToggle();
 });
+
