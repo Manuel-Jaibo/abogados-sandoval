@@ -544,14 +544,15 @@ form input {
   text-align: center; }
 
 .img-blog-4 {
-  width: 90%;
-  height: 150px;
+  width: 70%;
+  height: 70%;
   display: block;
   margin: auto;
-  padding: 5px; }
+  padding: 10px; }
 
 .img-blog-5 {
   width: 70%;
+  height: 70%;
   display: block;
   margin: auto;
   padding: 10px; }
