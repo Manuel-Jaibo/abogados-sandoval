@@ -43,7 +43,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
     <!--Favicon--> <link rel="shortcut icon" type="image/svg" href="/media/favicon.svg"/> 
-    <!--Enlace a fontawesome--><script src="https://kit.fontawesome.com/bf4418249f.js" crossorigin="anonymous"></script>
+    <!--Enlace a fontawesome--><script src="https://kit.fontawesome.com/bf4418249f.js" crossorigin="anonymous"></script>    
 </head>
 
 <body>
@@ -51,75 +51,50 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH682FC"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->    
-    
-    <header>
-        <div class="header-seccion1">
-            <div>
-                <a href="/index.html"><img class="logo" src="/media/logo.svg" alt="logo"></a>
-            </div>
 
-<!--Inicio Menu hamburguesa-->
-<div class="bamboo">
-    <div id="menu-btn">
-        <div class="menu-btn-line"></div>
-        <div class="menu-btn-line"></div>
-        <div class="menu-btn-line"></div>
+
+<header id="header">
+    
+    <!-- logo para pc -->
+    <div id="logo">
+        <a href="./index.html"><img class="logopc" src="./media/logo.svg" alt="logo abogados sandoval"></a>
     </div>
 
-    <nav id="menu">
+    <!-- logo para celular -->
+    <div id="logo">
+        <a href="./index.html"><img class="logocel" src="./media/logo-footer.svg" alt="logo abogados sandoval"></a>
+    </div>
+
+    <div 
+        id="toggle">
+    </div>
+
+    <div id="navbar">
         <ul>
-            <li><a href="./index.html">Inicio</a></li>
             <li><a href="./empresas.html">Empresas</a></li>
             <li><a href="./trabajadores.html">Trabajadores</a></li>
             <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./contacto.html">Contacto</a></li> <br>
+            <li><a href="./contacto.html">Contacto</a></li>
         </ul>
-    </nav>
-</div>
-<!--Fin Menu Hamburguesa-->
-
-            <div class="caja-iconos">
-                <!-- <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f"></i> 
-                </a> -->
-    
-                <a href="mailto:contacto@despachossandoval.com" target="_blank" rel="noopener noreferrer">   
-                    <i class="fas fa-envelope"> </i>
-                </a> 
-    
-                <a href="tel:5529444399">
-                    <i class="fas fa-phone-volume"></i>
-                </a>
-            </div>
-        </div>
-
-
-        <!--Inicio navegación pc-->
-        <div class="header-seccion2">
-            <nav>
-                <ul class="nav-pc">
-                    <li><a href="./empresas.html">Empresas</a></li>
-                    <li><a href="./trabajadores.html">Trabajadores</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!--Inicio navegación pc-->
-    </header>
+    </div>
+</header>
 
     <div 
         class="ban1">
     </div>
 
     <div class="ban11">
-        <form class="form-empresas">
-            <h3>Justicia laboral para todos</h3>
-            <input name="nombre" type="text" placeholder="Nombre y apellido" required>
-            <input name="email" type="email" placeholder="Correo electrónico" required>
-            <input name="teléfono" type="number" placeholder="Número telefónico" required>
-            <input name="Mensaje" type="text" placeholder="Describe brevemente tu problema" required>
-            <input id="enviar" type="submit" placeholder="Enviar solicitud">
+        <form id="formulario" action="" class="form-empresas">
+            <h3 class="titulo-form"><span>Justificia laboral para todos</span></h3>
+            <label class="label-nombre" for="nombre">Nombre completo</label>
+            <input name="nombre" required type="text" id="nombre">
+            <label for="email">Correo electrónico</label>
+            <input name="email" required type="text" id="email">
+            <label for="telefono">Teléfono</label>
+            <input name="telefono" required type="number" id="telefono"> 
+            <label for="mensaje">Describe brevemente tu problema</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="3"></textarea>
+            <button type="submit">Enviar</button>
         </form>
     </div>
 
@@ -178,32 +153,51 @@
     </div>
 
     <footer>
-        <a href="./index.html">
-            <img src="./media/logo-footer-n.png" alt="logo-despachos-sandoval">
-        </a>
-        <a href="mailto:contacto@despachossandoval.com">contacto@abogadossandoval.com</a>
-        <div class="footer-iconos"> <!--clase anterior > caja-iconos-->
-            <!-- <a href="http://" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-facebook-f"></i> 
-            </a> -->
-
-            <!-- <a href="http://" target="_blank" rel="noopener noreferrer">   
-                <i class="fab fa-linkedin-in"> </i>
-            </a>  -->
-
-            <a href="tel:5529444399">
-                5529444399
+        <div>
+            <a href="./index.html">
+                <img src="./media/logo-footer-n.png" alt="logo-despachos-sandoval">
             </a>
+        </div>
+
+        <div>
+            <a href="mailto:contacto@despachossandoval.com">contacto@abogadossandoval.com</a>
+        </div>
+        
+        <div> 
+            <p class="horario">
+                <a href="tel:5529444399">
+                    5529444399
+                </a> <br>
+                Horario de atención: <br>
+                Lunes a Viernes: 9:00 - 16:00
+            </p>
         </div>
     </footer>
     
-
+    
 <!-- Inicia código de seguimiento Hubspot-->
 <script type="text/javascript" id="hs-script-loader" as ync defer src="//js.hs-scripts.com/9327797.js"></script>
 <!-- Fin código de seguimiento Hubspot -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/menham.js"></script>
+<!-- script para menú -->
+<script>
+    const header = document.getElementById('header');
+    const toggle = document.getElementById('toggle');
+    const navbar = document.getElementById('navbar');
+
+    document.onclick = function(e){
+        if(e.target.id !== 'header' && e.target.id !== 'toggle' && e.target.id !== 'navbar'){
+            toggle.classList.remove('active');
+            navbar.classList.remove('active');
+        }
+    }
+
+    toggle.onclick = function(){
+        toggle.classList.toggle('active');
+        navbar.classList.toggle('active');
+    }
+</script>
+
 
 <!--By Jee 🍪-->
 </body>
