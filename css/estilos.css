@@ -579,26 +579,26 @@ footer img {
     display: none; }
   .logocel {
     display: flex;
-    width: 130px; }
+    height: 50px; }
   header {
-    background-color: transparent;
     display: flex;
     justify-content: space-around;
-    position: absolute; }
+    position: relative; }
   #toggle {
-    margin-top: 18px;
+    margin-top: 3px;
     right: 10px;
     width: 30px;
     height: 30px; }
   #navbar.active {
     width: 100%;
-    height: 100%;
+    height: 90px;
     position: fixed; }
   #navbar ul {
-    flex-direction: column; }
+    width: 100%;
+    padding: 10px 0; }
   #navbar ul li a {
     font-size: 19px;
-    line-height: 40px; }
+    line-height: 100%; }
   p {
     font-size: 19px;
     padding: 5px; }
