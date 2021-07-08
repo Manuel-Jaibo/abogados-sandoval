@@ -92,7 +92,6 @@ header {
   color: #fff;
   background: #009F8B; }
 
-/*Colores globales*/
 h1 {
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 32px;
@@ -122,48 +121,45 @@ p {
   background-image: url("/media/portada-inicio.jpg");
   height: 580px;
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  position: inherit;
+  z-index: 1; }
 
 .forma {
   background: #54BBAD;
-  position: relative;
-  top: -505px;
-  right: 195px;
+  position: absolute;
+  z-index: 2;
+  top: 60px;
+  left: -180px;
   width: fit-content;
   border-radius: 10%; }
 
 .titulo-form {
-  color: white;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 25px;
+  color: black;
   text-align: center;
   margin-top: 0px; }
 
-.label-nombre {
-  margin-top: -5px; }
-
-input:hover {
-  background-color: #54BBAD; }
-
 label {
-  margin-top: 18px;
-  color: white;
+  margin-top: 17px;
+  color: black;
   font-family: "Alegreya Sans", sans-serif;
-  letter-spacing: 1px; }
+  letter-spacing: 1.5px; }
 
 form input {
   padding-top: 3px;
-  height: 23px; }
+  height: 21px; }
 
 textarea {
   margin-bottom: 20px; }
 
-textarea:hover {
-  background-color: #54BBAD; }
-
 .forma button {
-  padding: 3px;
+  padding: 5px 3px;
   border-radius: 50px;
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  background: white; }
 
 .forma button:hover {
   background-color: #54BBAD; }
@@ -607,11 +603,16 @@ footer img {
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
-    padding: 0; }
+    padding: 0;
+    position: absolute; }
   .forma {
-    padding: 13px;
-    top: -70px;
-    right: -50px; }
+    padding: 20px;
+    top: -0px;
+    right: auto;
+    position: relative;
+    z-index: 2; }
+  .titulo-form {
+    font-size: 21px; }
   .main-seccion1 {
     flex-wrap: wrap;
     margin: 0; }

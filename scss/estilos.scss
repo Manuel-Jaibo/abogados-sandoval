@@ -158,68 +158,63 @@ p{
     height: 580px;
     width: 100%;
     margin: auto;
+    position: inherit;
+    z-index: 1;
 }
-
-// .ban11{
-//     position: absolute;
-//     margin: -425px 200px;
-// }
 
 .forma{
     background: $color-hover;
-    position: relative;
-    top: -505px;
-    right: 195px;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: -180px;
     width: fit-content;
     border-radius: 10%;
 }
 
 .titulo-form{
-    color:white;
+    font-family: $tipografia-parrafos;
+    font-size: 25px;
+    color:black;
     text-align: center;
     margin-top: 0px;
 }
 
-.label-nombre{
-    margin-top: -5px;
-}
-
-input:hover{
-    background-color: $color-hover;
-}
-
 label{
-    margin-top: 18px;
-    color: white;
+    margin-top: 17px;
+    color: black;
     font-family: $tipografia-parrafos;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 form input{
     padding-top: 3px;
-    height: 23px;
+    height: 21px;
 }
 
 textarea{
     margin-bottom: 20px;
 }
 
-textarea:hover{
-    background-color: $color-hover;
-}
-
 .forma button{
-    padding: 3px;
+    padding: 5px 3px;
     border-radius: 50px;
     font-family: $tipografia-botones;
     font-size: 15px;
+    background: white;
 }
 
 .forma button:hover{
     background-color: $color-hover;
 }
+//Fin de baner y formulario
 
-//Fin de formulario
+
+//Inicia main
+// main{
+//     position: relative;
+//     z-index: 2;
+// }
 
 .main-seccion1 {
     display: flex;
@@ -821,15 +816,24 @@ footer img {
         background-repeat: no-repeat;
         height: 200px;
         padding: 0;
+        position: absolute;
+        
     }
-
     
     .forma{
-        padding: 13px;
-        top: -70px;
-        right: -50px;
+        padding: 20px;
+        top: -0px;
+        right: auto;
+        position: relative;
+        z-index: 2;
     }
 
+    .titulo-form{
+        font-size: 21px;
+    }
+//Fin de baner y formulario
+
+//Inicia main
     .main-seccion1 {
         flex-wrap: wrap;
 
