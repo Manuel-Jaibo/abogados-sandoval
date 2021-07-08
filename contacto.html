@@ -52,61 +52,30 @@ gtag('config', 'UA-200832414-1');
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->      
     
-    <header>
-        <div class="header-seccion1">
-            <div>
-                <a href="/index.html"><img class="logo" src="/media/logo.svg" alt="logo"></a>
-            </div>
-
-<!--Inicio Menu hamburguesa-->
-<div class="bamboo">
-    <div id="menu-btn">
-        <div class="menu-btn-line"></div>
-        <div class="menu-btn-line"></div>
-        <div class="menu-btn-line"></div>
-    </div>
-
-    <nav id="menu">
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./empresas.html">Empresas</a></li>
-            <li><a href="./trabajadores.html">Trabajadores</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</div>
-<!--Fin Menu Hamburguesa-->
-
-            <div class="caja-iconos">
-                <!-- <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f"></i> 
-                </a> -->
-    
-                <a href="mailto:contacto@despachossandoval.com" target="_blank" rel="noopener noreferrer">   
-                    <i class="fas fa-envelope"> </i>
-                </a> 
-    
-                <a href="tel:5529444399">
-                    <i class="fas fa-phone-volume"></i>
-                </a>
-            </div>
+<header>
+    <!-- logo para pc -->
+        <div id="logo">
+            <a href="./index.html"><img class="logopc" src="./media/logo.svg" alt="logo abogados sandoval"></a>
         </div>
 
-
-        <!--Inicio navegación pc-->
-        <div class="header-seccion2">
-            <nav>
-                <ul class="nav-pc">
-                    <li><a href="./empresas.html">Empresas</a></li>
-                    <li><a href="./trabajadores.html">Trabajadores</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <!-- logo para celular -->
+        <div id="logo">
+            <a href="./index.html"><img class="logocel" src="./media/logo.svg" alt="logo abogados sandoval"></a>
         </div>
-        <!--Inicio navegación pc-->
-    </header>
+
+        <div 
+            id="toggle">
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li><a href="./empresas.html">Empresas</a></li>
+                <li><a href="./trabajadores.html">Trabajadores</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+</header>
 
 
     <section class="contacto-seccion1">
@@ -119,21 +88,23 @@ gtag('config', 'UA-200832414-1');
         </div>
     </section>
 
-    <div class="forma">
-        <h2>Contáctanos para recibir información personalizada</h2>
-        <form id="formulario" action="" class="form-empresas">
-            <h3 class="titulo-form"><span>Justificia laboral para todos</span></h3>
-            <label class="label-nombre" for="nombre">Nombre completo</label>
+   
+        <form id="formulario-contacto" action="" class="forma-contacto">
+            <h3 class="titulo-form-contacto"><span>Contáctanos para recibir información personalizada</span></h3>
+            <label for="nombre">Nombre completo</label>
             <input name="nombre" required type="text" id="nombre">
+            
             <label for="email">Correo electrónico</label>
-            <input name="email" required type="text" id="email">
+            <input name="email" required type="email" id="email">
+            
             <label for="telefono">Teléfono</label>
             <input name="telefono" required type="number" id="telefono"> 
+            
             <label for="mensaje">Describe brevemente tu problema</label>
             <textarea name="mensaje" id="mensaje" cols="30" rows="3"></textarea>
             <button type="submit">Enviar</button>
         </form>
-    </div>
+
 
     <footer>
         <div>
@@ -157,11 +128,29 @@ gtag('config', 'UA-200832414-1');
         </div>
     </footer>
 
-    <!-- Inicia código de seguimiento Hubspot-->
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9327797.js"></script>
-    <!-- Fin código de seguimiento Hubspot -->
+<!-- Inicia código de seguimiento Hubspot-->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9327797.js"></script>
+<!-- Fin código de seguimiento Hubspot -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/menham.js"></script>
+<!-- script para menú -->
+<script>
+    const header = document.getElementById('header');
+    const toggle = document.getElementById('toggle');
+    const navbar = document.getElementById('navbar');
+
+    document.onclick = function(e){
+        if(e.target.id !== 'header' && e.target.id !== 'toggle' && e.target.id !== 'navbar'){
+            toggle.classList.remove('active');
+            navbar.classList.remove('active');
+        }
+    }
+
+    toggle.onclick = function(){
+        toggle.classList.toggle('active');
+        navbar.classList.toggle('active');
+    }
+</script>
+
+
 </body>
 </html>

@@ -171,6 +171,24 @@ p{
     z-index: 1;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+.forma{
+    padding: 20px 50px;
+    background-color: $color-hover;
+    margin: 70px 400px;
+}
+    
+.forma h2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    }
+
 .forma{
     background: $color-hover;
     position: absolute;
@@ -601,34 +619,19 @@ aside {
 //Fin CSS Abogado online
 
 
-//Inicia Contacto
+//Inicia Contacto pc
 .contacto-seccion1 {
     display: flex;
-    margin: 70px 120px;
-    text-align: justify;
+    margin: 100px 120px;
+//     text-align: justify;
+    position: absolute;
 }
 
-iframe{
-    margin-left: 30px;
-}
+// iframe{
+//     margin-left: 30px;
+// }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
 
-.forma{
-    padding: 20px 50px;
-    background-color: $color-hover;
-    margin: 70px 400px;
-}
-
-.forma h2{
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    letter-spacing: 2px;
-}
 
 //Fin Contacto
 
@@ -826,6 +829,15 @@ footer img {
         position: absolute;
         margin-top: -120px;
         width: 100%;
+    }
+
+    .forma{
+        padding: 10px;
+        margin: 30px 20px;
+    }
+
+    .bot-enviar{
+        margin-left: 50px;
     }
     
     .forma{
@@ -1084,14 +1096,6 @@ footer img {
         margin-left: 0;
     }
 
-    .forma{
-        padding: 10px;
-        margin: 30px 20px;
-    }
-
-    .bot-enviar{
-        margin-left: 50px;
-    }
     //Fin Contacto
 
     //Inicia blogs
