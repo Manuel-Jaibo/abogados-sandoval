@@ -120,13 +120,17 @@ p {
 .banerpri {
   background-size: cover;
   background-image: url("/media/portada-inicio.jpg");
-  height: 550px;
-  width: 90%;
+  height: 580px;
+  width: 100%;
   margin: auto; }
 
-.form-empresas {
-  background-color: #02544C;
-  padding: 20px; }
+.forma {
+  background: #54BBAD;
+  position: relative;
+  top: -505px;
+  right: 195px;
+  width: fit-content;
+  border-radius: 10%; }
 
 .titulo-form {
   color: white;
@@ -155,13 +159,13 @@ textarea {
 textarea:hover {
   background-color: #54BBAD; }
 
-.form-empresas button {
+.forma button {
   padding: 3px;
   border-radius: 50px;
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 15px; }
 
-.form-empresas button:hover {
+.forma button:hover {
   background-color: #54BBAD; }
 
 .main-seccion1 {
@@ -603,10 +607,11 @@ footer img {
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
-    width: 100%;
     padding: 0; }
-  .form-empresas {
-    padding: 10px; }
+  .forma {
+    padding: 13px;
+    top: -70px;
+    right: -50px; }
   .main-seccion1 {
     flex-wrap: wrap;
     margin: 0; }
