@@ -176,14 +176,14 @@ p{
     z-index: 2;
     top: 60px;
     left: -180px;
-    width: fit-content;
-    border-radius: 10%;
+    // width: fit-content;
+    border-radius: 5%;
 }
 
 .titulo-form{
     font-family: $tipografia-parrafos;
     font-size: 25px;
-    color:black;
+    color: white;
     text-align: center;
     margin-top: 0px;
 }
@@ -219,10 +219,9 @@ textarea{
 
 
 //Inicia main
-// main{
-//     position: relative;
-//     z-index: 2;
-// }
+main{
+    margin-top: 30px;
+}
 
 .main-seccion1 {
     display: flex;
@@ -239,6 +238,7 @@ textarea{
 
 .img-mv{
     padding-left: 70px;
+    width: 100%;
 }
 //Fin Main
 
@@ -773,7 +773,7 @@ footer img {
         position: fixed;
         z-index: 3;
         background-color: $color-hover;
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
     #navbar ul{
@@ -782,10 +782,10 @@ footer img {
     }
 
     #navbar ul li a{
-        font-size: $tamano-navegacion-cel;
+        font-size: $tamano-parrafos-cel;
         line-height: 1%;
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         color: white;
     }
 
@@ -823,21 +823,21 @@ footer img {
         height: 200px;
         padding: 0;
         position: absolute;
-        margin-top: -94px;
+        margin-top: -120px;
         width: 100%;
     }
     
     .forma{
         padding: 25px;
-        top: 22px;
-        left: 55px;
-        width: 60%;
+        top: 0px;
+        left: 0;
         position: relative;
         z-index: 2;
     }
 
     .titulo-form{
         font-size: 21px;
+        letter-spacing: 1.5px;
     }
 //Fin de baner y formulario
 
@@ -845,16 +845,17 @@ footer img {
 //Inicia main
     .main-seccion1 {
         flex-wrap: wrap;
-        margin: 90px 0 0 0;
+        margin: 60px 0 0 0;
     }
     
     .img-mv{
         margin-top: 20px;
-        width: 100%;
+        padding-left: 0;
     }
 
     .img-mv img{
-        height: 320px;
+        padding-left: 0;
+        width: 80%;
     }
 
     .main-seccion2 {
@@ -864,7 +865,7 @@ footer img {
 
     .main-col1 {
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
         margin: 0;
         text-align: right;
     }
@@ -876,22 +877,32 @@ footer img {
 
     .main-col1 h3{
         margin: 20px 0;
-
+        width: 100%;
     }
 
     .main-col1 img {
-        width: 80%;
+        width: 90%;
     }
 
     .main-col2 {
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
         margin: 0;
         text-align: left;
     }
 
+    .main-col2 p{
+        width: 90%;
+        margin: 0;
+    }
+
+    .main-col2 h3{
+        margin: 20px 0;
+        width: 100%;
+    }
+
     .main-col2 img {
-        width: 80%;
+        width: 90%;
     }
     //Fin Main
 
@@ -1117,7 +1128,7 @@ footer img {
     footer {
         flex-direction: column;
         text-align: center;
-        height: 200px;
+        height: 250px;
     }
 
     footer a{

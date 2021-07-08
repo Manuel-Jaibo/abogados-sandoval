@@ -138,13 +138,12 @@ p {
   z-index: 2;
   top: 60px;
   left: -180px;
-  width: fit-content;
-  border-radius: 10%; }
+  border-radius: 5%; }
 
 .titulo-form {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 25px;
-  color: black;
+  color: white;
   text-align: center;
   margin-top: 0px; }
 
@@ -171,6 +170,9 @@ textarea {
 .forma button:hover {
   background-color: #54BBAD; }
 
+main {
+  margin-top: 30px; }
+
 .main-seccion1 {
   display: flex;
   margin: 70px 150px; }
@@ -182,7 +184,8 @@ textarea {
   text-align: center; }
 
 .img-mv {
-  padding-left: 70px; }
+  padding-left: 70px;
+  width: 100%; }
 
 /*Inicia CSS Seccion 2*/
 .tit {
@@ -583,15 +586,15 @@ footer img {
     position: fixed;
     z-index: 3;
     background-color: #54BBAD;
-    padding-top: 20px; }
+    padding-top: 40px; }
   #navbar ul {
     flex-direction: column;
     margin-top: 10px; }
   #navbar ul li a {
-    font-size: 19px;
+    font-size: 22px;
     line-height: 1%;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: white; }
   p {
     font-size: 22px;
@@ -609,47 +612,55 @@ footer img {
     height: 200px;
     padding: 0;
     position: absolute;
-    margin-top: -94px;
+    margin-top: -120px;
     width: 100%; }
   .forma {
     padding: 25px;
-    top: 22px;
-    left: 55px;
-    width: 60%;
+    top: 0px;
+    left: 0;
     position: relative;
     z-index: 2; }
   .titulo-form {
-    font-size: 21px; }
+    font-size: 21px;
+    letter-spacing: 1.5px; }
   .main-seccion1 {
     flex-wrap: wrap;
-    margin: 90px 0 0 0; }
+    margin: 60px 0 0 0; }
   .img-mv {
     margin-top: 20px;
-    width: 100%; }
+    padding-left: 0; }
   .img-mv img {
-    height: 320px; }
+    padding-left: 0;
+    width: 80%; }
   .main-seccion2 {
     flex-wrap: wrap;
     margin: 0; }
   .main-col1 {
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: 0;
     text-align: right; }
   .main-col1 p {
     width: 90%;
     margin: 0; }
   .main-col1 h3 {
-    margin: 20px 0; }
+    margin: 20px 0;
+    width: 100%; }
   .main-col1 img {
-    width: 80%; }
+    width: 90%; }
   .main-col2 {
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: 0;
     text-align: left; }
+  .main-col2 p {
+    width: 90%;
+    margin: 0; }
+  .main-col2 h3 {
+    margin: 20px 0;
+    width: 100%; }
   .main-col2 img {
-    width: 80%; }
+    width: 90%; }
   .articulos-recientes {
     flex-direction: column; }
   aside {
@@ -773,7 +784,7 @@ footer img {
   footer {
     flex-direction: column;
     text-align: center;
-    height: 200px; }
+    height: 250px; }
   footer a {
     font-size: 19px; } }
 
