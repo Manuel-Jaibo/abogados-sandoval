@@ -161,11 +161,12 @@ p{
 
 // Inicia baner y Formulario en cabecera 
 .banerpri{
-    background-size: cover;
+    background-size:cover;
     background-image: url("/media/portada-inicio.jpg");
+    background-repeat: no-repeat;
     height: 580px;
-    width: 100%;
-    margin: auto;
+    // width: 100%;
+    // margin: auto;
     position: inherit;
     z-index: 1;
 }
@@ -761,7 +762,7 @@ footer img {
     }
 
     #navbar{
-        background-color: yellow;
+        background-color: $color-hover;
         // position: relative;
         // z-index: 4;
         // right: 100px;

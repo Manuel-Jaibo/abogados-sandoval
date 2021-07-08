@@ -126,9 +126,8 @@ p {
 .banerpri {
   background-size: cover;
   background-image: url("/media/portada-inicio.jpg");
+  background-repeat: no-repeat;
   height: 580px;
-  width: 100%;
-  margin: auto;
   position: inherit;
   z-index: 1; }
 
@@ -579,7 +578,7 @@ footer img {
     width: 30px;
     height: 30px; }
   #navbar {
-    background-color: yellow; }
+    background-color: #54BBAD; }
   #navbar.active {
     width: 100%;
     height: 100%;
