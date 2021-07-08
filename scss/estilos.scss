@@ -142,15 +142,17 @@ p{
 }
 //Fin Globales
 
-//Inicia Main
-.baner {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 500px;
-}
+// //Inicia Main
+// .baner {
+//     display: block;
+//     margin: auto;
+//     width: 90%;
+//     height: 500px;
+// }
 
-.ban1{
+
+// Inicia baner y Formulario en cabecera 
+.banerpri{
     background-size: cover;
     background-image: url("/media/portada-inicio.jpg");
     height: 550px;
@@ -158,13 +160,11 @@ p{
     margin: auto;
 }
 
-.ban11{
-    position: absolute;
-    margin: -425px 200px;
-}
+// .ban11{
+//     position: absolute;
+//     margin: -425px 200px;
+// }
 
-
-// inicio de formulario 
 .form-empresas{
     background-color: $color-titulos;
     padding: 20px;
@@ -769,11 +769,13 @@ footer img {
         width: 100%;
         height: 90px;
         position: fixed;
+
     }
 
     #navbar ul{
         width: 100%;
-        padding: 10px 0;
+        flex-direction: column;
+        margin-top: 15px;
 
     }
 
@@ -808,7 +810,9 @@ footer img {
     //     height: 280px;
     // }
 
-    .ban1{
+
+//Inicia baner y formulario en cabecera
+    .banerpri{
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
@@ -816,10 +820,7 @@ footer img {
         padding: 0;
     }
 
-    .ban11{
-        position: relative;
-        margin: -40px 15px 20px;
-    }
+    
 
     .form-empresas{
         padding: 10px;
@@ -1159,7 +1160,7 @@ footer img {
     //Fin Header
 
     //Inicia Main
-    .ban1{
+    .banerpri{
         background-size: contain;
         background-repeat: no-repeat;
     }

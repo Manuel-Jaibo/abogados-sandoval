@@ -117,22 +117,12 @@ p {
   color: #000000;
   padding: 5px; }
 
-.baner {
-  display: block;
-  margin: auto;
-  width: 90%;
-  height: 500px; }
-
-.ban1 {
+.banerpri {
   background-size: cover;
   background-image: url("/media/portada-inicio.jpg");
   height: 550px;
   width: 90%;
   margin: auto; }
-
-.ban11 {
-  position: absolute;
-  margin: -425px 200px; }
 
 .form-empresas {
   background-color: #02544C;
@@ -595,7 +585,8 @@ footer img {
     position: fixed; }
   #navbar ul {
     width: 100%;
-    padding: 10px 0; }
+    flex-direction: column;
+    margin-top: 15px; }
   #navbar ul li a {
     font-size: 19px;
     line-height: 100%; }
@@ -608,15 +599,12 @@ footer img {
     font-size: 23px; }
   h3 {
     font-size: 20px; }
-  .ban1 {
+  .banerpri {
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
     width: 100%;
     padding: 0; }
-  .ban11 {
-    position: relative;
-    margin: -40px 15px 20px; }
   .form-empresas {
     padding: 10px; }
   .main-seccion1 {
@@ -798,7 +786,7 @@ footer img {
     display: none; }
   .header-seccion2 {
     display: none; }
-  .ban1 {
+  .banerpri {
     background-size: contain;
     background-repeat: no-repeat; }
   .ban11 {
