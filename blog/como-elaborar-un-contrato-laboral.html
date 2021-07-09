@@ -52,61 +52,30 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) --> 
     
-    <header>
-        <div class="header-seccion1">
-            <div>
-                <a href="/index.html"><img class="logo" src="/media/logo.svg" alt="logo"></a>
-            </div>
-
-<!--Inicio Menu hamburguesa-->
-<div class="bamboo">
-    <div id="menu-btn">
-        <div class="menu-btn-line"></div>
-        <div class="menu-btn-line"></div>
-        <div class="menu-btn-line"></div>
+<header id="header">
+    <!-- logo para pc -->
+    <div id="logo">
+        <a href="../index.html"><img class="logopc" src="../media/logo.svg" alt="logo abogados sandoval"></a>
     </div>
 
-    <nav id="menu">
+    <!-- logo para celular -->
+    <div id="logo">
+        <a href="../index.html"><img class="logocel" src="../media/logo.svg" alt="logo abogados sandoval"></a>
+    </div>
+
+    <div 
+        id="toggle">
+    </div>
+
+    <div id="navbar">
         <ul>
-            <li><a href="./index.html">Inicio</a></li>
             <li><a href="../empresas.html">Empresas</a></li>
             <li><a href="../trabajadores.html">Trabajadores</a></li>
             <li><a href="../blog.html">Blog</a></li>
             <li><a href="../contacto.html">Contacto</a></li>
         </ul>
-    </nav>
-</div>
-<!--Fin Menu Hamburguesa-->
-
-            <div class="caja-iconos">
-                <!-- <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f"></i> 
-                </a> -->
-    
-                <a href="mailto:contacto@despachossandoval.com" target="_blank" rel="noopener noreferrer">   
-                    <i class="fas fa-envelope"> </i>
-                </a> 
-    
-                <a href="tel:5529444399">
-                    <i class="fas fa-phone-volume"></i>
-                </a>
-            </div>
-        </div>
-
-
-        <!--Inicio navegación pc-->
-        <div class="header-seccion2">
-            <nav>
-                <ul class="nav-pc">
-                    <li><a href="../empresas.html">Empresas</a></li>
-                    <li><a href="../trabajadores.html">Trabajadores</a></li>
-                    <li><a href="../blog.html">Blog</a></li>
-                    <li><a href="../contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!--Fin navegación pc-->
-    </header>
+    </div>
+</header>
 
     <div>
         <img class="baner-blogs" src="../media/blogs/blog-8/contrato-laboral.jpg" alt="como elaborar un contrato laboral">
@@ -122,7 +91,7 @@
         <p>La respuesta a esa pregunta es observando todos los requisitos que impone la Ley Federal del Trabajo, las necesidades de su negociación y pensando en futuros escenarios, que es lo que quiere o pretende evitar con el mismo.</p>
 
         <p>Por cuanto hace a la Ley Federal del Trabajo, los requisitos son los siguientes:</p>
-        <ol>
+        <ol class="lista-interna">
             <li>Nombre, nacionalidad, edad, sexo, estado civil, CURP, RFC y domicilio del trabajador y del patrón.</li>
             <li>Si la relación de trabajo es para obra o tiempo determinado, por temporada, de capacitación inicial o por tiempo indeterminado y, en su caso, si está sujeta a un periodo de prueba</li>
             <li>El servicio o servicios que deban prestarse, con la mayor precisión posible.</li>
@@ -145,11 +114,11 @@
         <p>En caso de que requiera información adicional, así como asesoría respecto a la elaboración de contratos individuales de trabajo o revisión de los mismos, no dude en acercarse a uno de nuestros abogados especializados en materia laboral, que le brindarán la tranquilidad de hacer contratos personales acordes a sus necesidades.</p>
     </section>
 
-    <div >
+    <!-- <div >
         <a href="#seccion-blog">
             <i class="fas fa-chevron-circle-up fa-3x"></i>
         </a>
-    </div>
+    </div> -->
 
 
     <footer>
@@ -174,12 +143,11 @@
         </div>
     </footer>
 
+<!-- script para menú -->
+<script src="../efectos/navegacion.js"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/menham.js"></script>
 
-<script src="/jquery.min.js"></script>
-<script src="/main.js"></script>
+<!--By Jee 🍪-->
 
 </body>
 </html>

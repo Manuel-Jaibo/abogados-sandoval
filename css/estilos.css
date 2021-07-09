@@ -511,16 +511,19 @@ aside {
 .linea-1 img {
   width: 100%; }
 
-.contacto-seccion1 {
-  display: flex;
-  margin: 100px 120px;
-  position: absolute; }
+.formulario-contacto {
+  margin: 80px 400px; }
+
+iframe {
+  margin-left: 30px;
+  margin-top: 120px; }
 
 .baner-blogs {
   display: block;
   margin: auto;
   width: 1100px;
-  height: 500px; }
+  height: 500px;
+  z-index: 4; }
 
 #seccion-blog {
   background: white;
@@ -528,20 +531,25 @@ aside {
   margin-right: 200px;
   position: relative;
   margin-top: -150px;
-  padding: 15px; }
+  padding: 30px 100px;
+  box-shadow: 1px 1px 6px 1px #54BBAD; }
 
-.seccion-blog p {
+#seccion-blog p {
   text-align: justify;
-  padding-left: 50px;
-  padding-right: 50px; }
+  margin: 22px 0px; }
 
-.seccion-blog h1 {
-  padding: 30px 70px;
+#seccion-blog h1 {
   text-align: center; }
 
-.seccion-blog h2 {
-  padding: 30px 70px;
+#seccion-blog h2 {
   text-align: center; }
+
+.lista-interna {
+  font-family: 24px;
+  font-size: 19px; }
+
+.lista-interna li {
+  margin-bottom: 10px; }
 
 .img-blog-4 {
   width: 70%;
@@ -789,8 +797,7 @@ footer img {
     z-index: 1; }
   .abog-seccion1-a {
     width: 100%;
-    margin-top: -100px;
-    z-index: 4; }
+    margin-top: -100px; }
   .abog-seccion1-b {
     width: 100%; }
   .abog-seccion1-b img {
@@ -801,30 +808,28 @@ footer img {
   .linea-1 div {
     width: 90%;
     margin: 20px; }
-  .contacto-seccion1 {
-    margin: 0;
-    flex-direction: column;
-    width: 100%; }
+  .formulario-contacto {
+    margin: 0; }
   iframe {
-    width: 100%;
-    margin-left: 0; }
+    width: 90%;
+    margin: 30px; }
   .baner-blogs {
     width: 100%;
-    height: 180px; }
+    height: 180px;
+    margin-top: -130px;
+    position: relative;
+    z-index: 1; }
   #seccion-blog {
     margin-top: -70px;
     margin-left: 20px;
-    margin-right: 20px; }
-  .seccion-blog p {
-    padding-left: 2px;
-    padding-right: 2px; }
-  .seccion-blog h1 {
-    padding: 10px 0; }
-  .seccion-blog h2 {
-    padding: 10px 0; }
-  .lista-blog li {
-    font-size: 22px;
-    margin: 15px 0; }
+    margin-right: 20px;
+    padding: 15px;
+    z-index: 2; }
+  #seccion-blog p {
+    width: 100%;
+    margin: 0; }
+  .img-blog-4 {
+    width: 100%; }
   footer {
     flex-direction: column;
     text-align: center;
