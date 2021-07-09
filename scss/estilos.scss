@@ -176,12 +176,6 @@ form {
     flex-direction: column;
     }
     
-.forma{
-    padding: 20px 50px;
-    background-color: $color-hover;
-    margin: 70px 400px;
-}
-    
 .forma h2{
     text-align: center;
     color: white;
@@ -190,13 +184,36 @@ form {
     }
 
 .forma{
+    box-shadow: 1px 1px 5px 2px $color-titulos;
     background: $color-hover;
     position: absolute;
     z-index: 2;
     top: 60px;
     left: -180px;
-    // width: fit-content;
     border-radius: 5%;
+    padding: 30px 40px;
+    background-color: $color-hover;
+    margin: 70px 400px;
+}
+
+.formaemp{
+    box-shadow: 1px 1px 8px 2px $color-titulos;
+    background: $color-hover;
+    border-radius: 5%;
+    padding: 20px 30px;
+    background-color: $color-hover;
+}
+
+
+.formaemp button{
+    border-radius: 50px;
+    font-family: $tipografia-botones;
+    font-size: 20px;
+    background: white;
+}
+
+.formaemp button:hover{
+    box-shadow: 1px 1px 8px 2px $color-titulos;
 }
 
 .titulo-form{
@@ -232,7 +249,7 @@ textarea{
 }
 
 .forma button:hover{
-    background-color: $color-hover;
+    box-shadow: 1px 1px 8px 2px $color-titulos;
 }
 //Fin de baner y formulario
 
@@ -387,7 +404,7 @@ aside {
     width: 25%;
     margin: 5px;
     text-align: center;
-    box-shadow: 1px 3px 2px 1px rgba(84, 187, 173, .5);
+    box-shadow: 1px 3px 1px 1px rgba(84, 187, 173, .5);
 }
 
 .articulo-home:hover{
@@ -492,6 +509,8 @@ aside {
 
 .jepe{
     color: white;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .jipi{
@@ -841,21 +860,24 @@ footer img {
         width: 100%;
     }
 
-    .forma{
-        padding: 10px;
-        margin: 30px 20px;
-    }
-
     .bot-enviar{
         margin-left: 50px;
     }
     
     .forma{
-        padding: 25px;
         top: 0px;
         left: 0;
         position: relative;
         z-index: 2;
+        padding: 10px;
+        margin: 30px 20px;
+    }
+
+    .formaemp{
+        background: $color-hover;
+        border-radius: 5%;
+        background-color: $color-hover;
+        margin: 30px;
     }
 
     .titulo-form{
@@ -951,27 +973,25 @@ footer img {
     }
     //Fin Artículos recientes celular
 
-    //Inicia Empresas celular
-    // .seccionplo p {
-    //     padding: 0;
-    //     margin: 40px 0;
-    // }
 
+    //Inicia Empresas celular
     .baner2 img{
         width: 100%;
         height: 250px;
-        margin-top: -260px;
+        margin-top: -200px;
         position: absolute;
     }
 
     .baner2 p{
         position: relative;
-        top: 60px;
-        padding: 0;
+        top: 100px;
+        padding: 0 20px;
     }
 
     .empresas-iconos{
         margin-top: 180px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .iconos-landing{

@@ -135,11 +135,6 @@ form {
   display: flex;
   flex-direction: column; }
 
-.forma {
-  padding: 20px 50px;
-  background-color: #54BBAD;
-  margin: 70px 400px; }
-
 .forma h2 {
   text-align: center;
   color: white;
@@ -147,12 +142,32 @@ form {
   letter-spacing: 2px; }
 
 .forma {
+  box-shadow: 1px 1px 5px 2px #02544C;
   background: #54BBAD;
   position: absolute;
   z-index: 2;
   top: 60px;
   left: -180px;
-  border-radius: 5%; }
+  border-radius: 5%;
+  padding: 30px 40px;
+  background-color: #54BBAD;
+  margin: 70px 400px; }
+
+.formaemp {
+  box-shadow: 1px 1px 8px 2px #02544C;
+  background: #54BBAD;
+  border-radius: 5%;
+  padding: 20px 30px;
+  background-color: #54BBAD; }
+
+.formaemp button {
+  border-radius: 50px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 20px;
+  background: white; }
+
+.formaemp button:hover {
+  box-shadow: 1px 1px 8px 2px #02544C; }
 
 .titulo-form {
   font-family: "Alegreya Sans", sans-serif;
@@ -182,7 +197,7 @@ textarea {
   background: white; }
 
 .forma button:hover {
-  background-color: #54BBAD; }
+  box-shadow: 1px 1px 8px 2px #02544C; }
 
 main {
   margin-top: 30px; }
@@ -305,7 +320,7 @@ aside {
   width: 25%;
   margin: 5px;
   text-align: center;
-  box-shadow: 1px 3px 2px 1px rgba(84, 187, 173, 0.5); }
+  box-shadow: 1px 3px 1px 1px rgba(84, 187, 173, 0.5); }
 
 .articulo-home:hover {
   background-color: rgba(84, 187, 173, 0.18);
@@ -387,7 +402,9 @@ aside {
   margin: 50px; }
 
 .jepe {
-  color: white; }
+  color: white;
+  margin-top: 20px;
+  text-align: center; }
 
 .jipi {
   color: white; }
@@ -618,17 +635,20 @@ footer img {
     position: absolute;
     margin-top: -120px;
     width: 100%; }
-  .forma {
-    padding: 10px;
-    margin: 30px 20px; }
   .bot-enviar {
     margin-left: 50px; }
   .forma {
-    padding: 25px;
     top: 0px;
     left: 0;
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    padding: 10px;
+    margin: 30px 20px; }
+  .formaemp {
+    background: #54BBAD;
+    border-radius: 5%;
+    background-color: #54BBAD;
+    margin: 30px; }
   .titulo-form {
     font-size: 21px;
     letter-spacing: 1.5px; }
@@ -683,14 +703,16 @@ footer img {
   .baner2 img {
     width: 100%;
     height: 250px;
-    margin-top: -260px;
+    margin-top: -200px;
     position: absolute; }
   .baner2 p {
     position: relative;
-    top: 60px;
-    padding: 0; }
+    top: 100px;
+    padding: 0 20px; }
   .empresas-iconos {
-    margin-top: 180px; }
+    margin-top: 180px;
+    margin-left: 15px;
+    margin-right: 15px; }
   .iconos-landing {
     flex-direction: column;
     margin-top: -10px; }
