@@ -259,9 +259,9 @@ main{
     padding-left: 70px;
     width: 100%;
 }
-//Fin Main
+//Fin Main pc
 
-/*Inicia CSS Seccion 2*/
+//Inicia Seccion 2 pc
 .tit {
     text-align: center;
     margin-top: 50px;
@@ -358,7 +358,7 @@ main{
     color: black;
 }
 
-//Inicia CSS Artículos recientes
+//Inicia Artículos recientes pc
 .articulos-recientes {
     margin-top: 120px;
     display: flex;
@@ -405,9 +405,16 @@ aside {
     width: 100%;
     margin-bottom: 20px;
 }
-//Fin Artículos recientes
+//Fin Artículos recientes pc
 
-//Inicio Landing Empresas
+//Inicio Empresas pc
+.baner {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 700px;
+}
+
 .iconos-landing{
     display: flex;
     justify-content: center;

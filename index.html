@@ -184,23 +184,7 @@
 <!-- Fin código de seguimiento Hubspot -->
 
 <!-- script para menú -->
-<script>
-    const header = document.getElementById('header');
-    const toggle = document.getElementById('toggle');
-    const navbar = document.getElementById('navbar');
-
-    document.onclick = function(e){
-        if(e.target.id !== 'header' && e.target.id !== 'toggle' && e.target.id !== 'navbar'){
-            toggle.classList.remove('active');
-            navbar.classList.remove('active');
-        }
-    }
-
-    toggle.onclick = function(){
-        toggle.classList.toggle('active');
-        navbar.classList.toggle('active');
-    }
-</script>
+<script src="./efectos/navegacion.js"></script>
 
 
 <!--By Jee 🍪-->

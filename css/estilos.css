@@ -201,7 +201,6 @@ main {
   padding-left: 70px;
   width: 100%; }
 
-/*Inicia CSS Seccion 2*/
 .tit {
   text-align: center;
   margin-top: 50px;
@@ -320,6 +319,12 @@ aside {
 .articulo-home img {
   width: 100%;
   margin-bottom: 20px; }
+
+.baner {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 550px; }
 
 .iconos-landing {
   display: flex;
