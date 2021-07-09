@@ -387,7 +387,7 @@ aside {
     width: 25%;
     margin: 5px;
     text-align: center;
-    box-shadow: 10px 5px 5px rgba(84, 187, 173, 0.18);
+    box-shadow: 1px 3px 2px 1px rgba(84, 187, 173, .5);
 }
 
 .articulo-home:hover{
@@ -408,11 +408,20 @@ aside {
 //Fin Artículos recientes pc
 
 //Inicio Empresas pc
-.baner {
+.baner2 img{
     display: block;
     margin: auto;
-    width: 90%;
-    height: 700px;
+    // width: 90%;
+    height: 550px;
+}
+
+.baner2 p{
+    margin-top: 70px;
+    padding: 0 240px;
+}
+
+.empresas-iconos{
+    margin-top: 100px;
 }
 
 .iconos-landing{
@@ -421,28 +430,16 @@ aside {
     margin-top: 80px;
 }
 
-.iconos-landing h2{
-    color: black;
-}
-
 .iconos-landing2{
     display: flex;
     justify-content: center;
     margin-top: 80px;
 }
 
-.iconos-landing2 h2{
-    color: black;
-}
-
 .iconos-landing3{
     display: flex;
     justify-content: center;
     margin-top: 80px;
-}
-
-.iconos-landing3 h2{
-    color: black;
 }
 
 .iconos-landing div{
@@ -459,8 +456,10 @@ aside {
 
 .un-icono{
     text-align: center;
-    padding:10px;
-    color: #009F8B;
+    padding: 15px;
+    margin: 5px;
+    color: $color-titulos;
+    box-shadow: 1px 1px 6px 1px $color-hover;
 }
 
 .un-icono:hover{
@@ -468,7 +467,11 @@ aside {
 }
 
 .h2-landing{
+    margin-top: 20px;
     font-size: 15px;
+    color: black;
+    letter-spacing: .8px;
+    padding-top: 1px;
 }
 
 .seccion-2-landing{
@@ -499,7 +502,7 @@ aside {
     text-align: center;
 }
 
-//Fin landing EMPRESAS
+//Fin Empresas pc
 
 //Inicia TRABAJADORES
 .seccion-trabajadores{
@@ -946,12 +949,29 @@ footer img {
     .articulo-home h3{
         text-align: center;
     }
-    //Fin Artículos recientes
+    //Fin Artículos recientes celular
 
-    //Inicia empresas landing
-    .seccionplo p {
+    //Inicia Empresas celular
+    // .seccionplo p {
+    //     padding: 0;
+    //     margin: 40px 0;
+    // }
+
+    .baner2 img{
+        width: 100%;
+        height: 250px;
+        margin-top: -260px;
+        position: absolute;
+    }
+
+    .baner2 p{
+        position: relative;
+        top: 60px;
         padding: 0;
-        margin: 40px 0;
+    }
+
+    .empresas-iconos{
+        margin-top: 180px;
     }
 
     .iconos-landing{
@@ -1089,9 +1109,9 @@ footer img {
         width: 100%;
         margin: 40px 0;
     }
-    //Fin Abogado online
+    //Fin Abogado online celular
 
-    //Inicia Contacto
+    //Inicia Contacto celular
     .contacto-seccion1{
         margin: 0;
         flex-direction: column;

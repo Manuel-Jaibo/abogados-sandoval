@@ -305,7 +305,7 @@ aside {
   width: 25%;
   margin: 5px;
   text-align: center;
-  box-shadow: 10px 5px 5px rgba(84, 187, 173, 0.18); }
+  box-shadow: 1px 3px 2px 1px rgba(84, 187, 173, 0.5); }
 
 .articulo-home:hover {
   background-color: rgba(84, 187, 173, 0.18);
@@ -320,35 +320,32 @@ aside {
   width: 100%;
   margin-bottom: 20px; }
 
-.baner {
+.baner2 img {
   display: block;
   margin: auto;
-  width: 90%;
   height: 550px; }
+
+.baner2 p {
+  margin-top: 70px;
+  padding: 0 240px; }
+
+.empresas-iconos {
+  margin-top: 100px; }
 
 .iconos-landing {
   display: flex;
   justify-content: center;
   margin-top: 80px; }
 
-.iconos-landing h2 {
-  color: black; }
-
 .iconos-landing2 {
   display: flex;
   justify-content: center;
   margin-top: 80px; }
 
-.iconos-landing2 h2 {
-  color: black; }
-
 .iconos-landing3 {
   display: flex;
   justify-content: center;
   margin-top: 80px; }
-
-.iconos-landing3 h2 {
-  color: black; }
 
 .iconos-landing div {
   width: 30%; }
@@ -361,14 +358,20 @@ aside {
 
 .un-icono {
   text-align: center;
-  padding: 10px;
-  color: #009F8B; }
+  padding: 15px;
+  margin: 5px;
+  color: #02544C;
+  box-shadow: 1px 1px 6px 1px #54BBAD; }
 
 .un-icono:hover {
   background-color: rgba(84, 187, 173, 0.18); }
 
 .h2-landing {
-  font-size: 15px; }
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  letter-spacing: .8px;
+  padding-top: 1px; }
 
 .seccion-2-landing {
   display: flex;
@@ -677,9 +680,17 @@ footer img {
     background-color: rgba(84, 187, 173, 0.18); }
   .articulo-home h3 {
     text-align: center; }
-  .seccionplo p {
-    padding: 0;
-    margin: 40px 0; }
+  .baner2 img {
+    width: 100%;
+    height: 250px;
+    margin-top: -260px;
+    position: absolute; }
+  .baner2 p {
+    position: relative;
+    top: 60px;
+    padding: 0; }
+  .empresas-iconos {
+    margin-top: 180px; }
   .iconos-landing {
     flex-direction: column;
     margin-top: -10px; }
